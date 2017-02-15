@@ -4,7 +4,7 @@
 }
 body {
   font-size: .75em;
-  height: 100%;
+  height: auto;
 }
 ul {
   list-style: none;
@@ -12,17 +12,22 @@ ul {
 a {
   text-decoration: none;
 }
-header .gnb {
+header nav {
   height: 35px;
   background-color: #000;
   text-align: center;
   line-height: 35px;
 }
-header .gnb li {
+header nav li {
   display: inline-block;
   *display: inline;
   *zoom: 1;
+  padding-left: 18px;
 }
-header .gnb li a {
+header nav li a {
   color: #FFF;
+}
+header .title-logo span {
+  display: block;
+  margin: 15px auto;
 }
