@@ -2,19 +2,56 @@
   margin: 0;
   padding: 0;
 }
+ul {
+  list-style: none;
+}
 body {
-  background: url(image/SK/bg_leftmenu.gif) 0 0 repeat-y;
+  background: url(../image/sk/bg_leftmenu_gr.gif) 0 0 repeat-y;
   height: 100%;
   font-size: 12px;
   font-family: Dotum;
 }
+img {
+  border: 0;
+}
 header {
   height: 103px;
-  background: url(image/SK/bg_topgr.png) left bottom repeat-x;
+  background: url(../image/sk/bg_topgr.png) left bottom repeat-x;
   position: relative;
 }
 header h1 {
   position: absolute;
   top: 18px;
   left: 52px;
+}
+header .gnb {
+  position: absolute;
+  top: 12px;
+  right: 66px;
+}
+header .gnb li {
+  float: left;
+  padding: 0 8px 0 7px;
+}
+header .menu {
+  position: absolute;
+  top: 60px;
+  left: 292px;
+}
+header .menu li {
+  float: left;
+  padding: 2px 35px 0 35px;
+  background: url(../image/sk/bg_bar_tmenu.gif) right top no-repeat;
+}
+header .menu li:last-child {
+  padding-right: 0;
+}
+header .sns_list {
+  position: absolute;
+  top: 58px;
+  right: 250px;
+}
+header .sns_list li {
+  float: left;
+  padding-right: 2px;
 }
