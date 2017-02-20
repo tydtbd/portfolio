@@ -9,7 +9,7 @@ body {
   background: url(../image/sk/bg_leftmenu_gr.gif) 0 0 repeat-y;
   height: 100%;
   font-size: 12px;
-  font-family: Dotum;
+  font-family: Dotum, "돋움";
 }
 img {
   border: 0;
@@ -32,6 +32,11 @@ header .gnb {
 header .gnb li {
   float: left;
   padding: 0 8px 0 7px;
+  background: url(../image/sk/bg_bar_gnb.gif) right 3px no-repeat;
+}
+header .gnb li:last-child {
+  padding-right: 0;
+  background: 0;
 }
 header .menu {
   position: absolute;
@@ -45,6 +50,7 @@ header .menu li {
 }
 header .menu li:last-child {
   padding-right: 0;
+  background: 0;
 }
 header .sns_list {
   position: absolute;
@@ -54,4 +60,112 @@ header .sns_list {
 header .sns_list li {
   float: left;
   padding-right: 2px;
+}
+header fieldset {
+  position: absolute;
+  border: 0;
+  width: 172px;
+  height: 29px;
+  top: 54px;
+  right: 57px;
+  background: url(../image/sk/bg_searchbox.gif) 0 0 no-repeat;
+}
+header fieldset legend {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+header fieldset input {
+  width: 137px;
+  height: 19px;
+  border: 0;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: none;
+}
+header fieldset a {
+  position: absolute;
+  top: 5px;
+  left: 150px;
+}
+body section {
+  padding: 0 !important;
+  background: none !important;
+}
+section {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  padding: 0;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 327px;
+}
+section .container .sitemaparea a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section .container .hidemap {
+  width: 721px;
+  height: 100%;
+  background: url(../image/sk/bg_hiddenmap.gif) right top no-repeat;
+}
+section .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px 0;
+}
+section .container .content .contents .company {
+  float: left;
+  position: relative;
+  border-right: 1px #eaeaea solid;
+  border-bottom: 1px #eaeaea solid;
+  background: url(../image/sk/bg_skbox_bot.gif) left bottom repeat-x;
+  width: 954px;
+  height: 362px;
+}
+section .container .content .contents .company .slide {
+  width: 717px;
+  height: 362px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 1px #eaeaea solid;
+}
+section .container .content .contents .company .rightbox {
+  width: 235px;
+  height: 362px;
+  position: relative;
+  float: right;
+}
+section .container .content {
+  width: 1200px;
+  padding: 0 !important;
+}
+section .container {
+  padding: 0 0 0 28px;
+}
+section .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 28px;
+  padding: 0;
+  margin: 0 0 0 -28px;
 }
