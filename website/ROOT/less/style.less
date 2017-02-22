@@ -143,12 +143,77 @@ section{
                       top: 0;
                       left: 0;
                       border-right: 1px #eaeaea solid;
+                      .stop{
+                        width: 30px;
+                        height: 30px;
+                        border: 0;
+                        position: absolute;
+                        bottom: 15px;
+                        right: 47px;
+                        background: url(../image/sk/btn_stop.gif);
+                      }
+                      .play{
+
+                        width: 30px;
+                        height: 30px;
+                        border: 0;
+                        position: absolute;
+                        bottom: 15px;
+                        right: 15px;
+                        background: url(../image/sk/btn_play.gif);
+                      }
+                      .left{
+                        position: absolute;
+                        top: 170px;
+                        left: 25px;
+                      }
+                      .right{
+                        position: absolute;
+                        top: 170px;
+                        left: 665px;
+                      }
                     }
-                    .rightbox{
+                    .slide_right{
                       width: 235px;
                       height: 362px;
                       position: relative;
                       float: right;
+                      .rightarea{
+                        width: 213px;
+                        height: 332px;
+                        padding: 29px 0 0 23px;
+                        background: url(../image/sk/txt_oksk.gif)left 23px bottom 16px no-repeat;
+                        .skbtn{
+                          position: absolute;
+                          top: 0;
+                          right: 0;
+                        }
+                        h2{
+                          height: 24px;
+                          padding-left: 6px;
+                          img{display: block;}
+                          }
+                        ul{
+                           height: 91px;
+                           padding-left: 6px;
+                           li{
+                             float: left;
+                             margin-right: 4px;
+                             a{
+                               position: relative;
+                               display: block;
+                               span{
+                                 display:none;
+                                 position: absolute;
+                                 top: 0;
+                                 right: 0;
+                                 bottom: 0;
+                                 left: 0;
+                               }
+                             }
+                           }
+                         }
+                      }
                     }
                   }
                   .investor{
@@ -162,6 +227,20 @@ section{
                     h2{
                       height: 34px;
                     }
+                    dl{width: 194px;overflow: hidden;padding-bottom: 30px;
+                    dt{
+                      height: 21px;
+                      a{
+                        font-size: 13px;
+                        font-weight: bold;
+                        font-family: malgun;
+                        color: #6e6e6e;
+                        display: block;
+                        width: 190px;
+                        background: url(../image/sk/arr_next.gif) right no-repeat;
+                       }
+                      }
+                    }
                   }
                   .sk_media{
                     width: 219px;
@@ -171,6 +250,7 @@ section{
                     float: left;
                     padding: 30px 0 0 19px;
                     background: url(../image/sk/bg_grd_03.gif) right bottom repeat-x;
+                    h2{height: 31px;}
                   }
                   .sk_global{
                     width: 200px;
@@ -181,6 +261,9 @@ section{
                     background-color: #f3f3f3;
                     border-right: 1px #eaeaea solid;
                     border-bottom: 1px #eaeaea solid;
+                    h2{
+                      height: 31px;
+                    }
                   }
                   .sk_news{
                     position: relative;
@@ -189,6 +272,49 @@ section{
                     height: 239px;
                     border-right:1px #eaeaea solid;
                     border-bottom: 1px #eaeaea solid;
+                    .wrap{
+                      width: 698px;
+                      height: 239px;
+                      overflow: hidden;
+                      position: absolute;
+                      top: 0;
+                      left: 19px;
+                      h2{
+                        position: absolute;
+                        top: 30px;
+                        left: 0;
+                      }
+                      .arr_prev{
+                        position: absolute;
+                        top: 30px;
+                        left: 174px;
+                        img{ vertical-align: middle;}
+                      }
+                      .arr_next{
+                        position: absolute;
+                        top: 30px;
+                        left: 194px;
+                        img{ vertical-align: middle;}
+                      }
+                      dt{
+                        position: absolute;
+                        top: 58px;
+                        float: left;
+                        .text{
+                          width: 200px;
+                          font-family: malgun;
+                          font-size: 16px;
+                          font-weight: bold;
+                          padding-bottom: 20px;
+                          color: #333;
+                          line-height: 20px;
+                        }
+                        .text2{
+                          width: 200px;
+                        }
+                      }
+                      dd{float: right;}
+                    }
                   }
                   .divide{
                     width: 238px;
@@ -222,7 +348,11 @@ section{
                         }
                       }
                     }
-                    .nanum{}
+                    .nanum{
+                      padding: 30px 0 0 19px;
+                      border-top: 1px #eaeaea solid;
+                      dt{height: 31px;}
+                    }
                   }
                   .sk_cf{
                     width: 220px;

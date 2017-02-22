@@ -157,11 +157,77 @@ section .container .content .contents .company .slide {
   left: 0;
   border-right: 1px #eaeaea solid;
 }
-section .container .content .contents .company .rightbox {
+section .container .content .contents .company .slide .stop {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  position: absolute;
+  bottom: 15px;
+  right: 47px;
+  background: url(../image/sk/btn_stop.gif);
+}
+section .container .content .contents .company .slide .play {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: url(../image/sk/btn_play.gif);
+}
+section .container .content .contents .company .slide .left {
+  position: absolute;
+  top: 170px;
+  left: 25px;
+}
+section .container .content .contents .company .slide .right {
+  position: absolute;
+  top: 170px;
+  left: 665px;
+}
+section .container .content .contents .company .slide_right {
   width: 235px;
   height: 362px;
   position: relative;
   float: right;
+}
+section .container .content .contents .company .slide_right .rightarea {
+  width: 213px;
+  height: 332px;
+  padding: 29px 0 0 23px;
+  background: url(../image/sk/txt_oksk.gif) left 23px bottom 16px no-repeat;
+}
+section .container .content .contents .company .slide_right .rightarea .skbtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+section .container .content .contents .company .slide_right .rightarea h2 {
+  height: 24px;
+  padding-left: 6px;
+}
+section .container .content .contents .company .slide_right .rightarea h2 img {
+  display: block;
+}
+section .container .content .contents .company .slide_right .rightarea ul {
+  height: 91px;
+  padding-left: 6px;
+}
+section .container .content .contents .company .slide_right .rightarea ul li {
+  float: left;
+  margin-right: 4px;
+}
+section .container .content .contents .company .slide_right .rightarea ul li a {
+  position: relative;
+  display: block;
+}
+section .container .content .contents .company .slide_right .rightarea ul li a span {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 section .container .content .contents .investor {
   float: left;
@@ -175,6 +241,23 @@ section .container .content .contents .investor {
 section .container .content .contents .investor h2 {
   height: 34px;
 }
+section .container .content .contents .investor dl {
+  width: 194px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+section .container .content .contents .investor dl dt {
+  height: 21px;
+}
+section .container .content .contents .investor dl dt a {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: malgun;
+  color: #6e6e6e;
+  display: block;
+  width: 190px;
+  background: url(../image/sk/arr_next.gif) right no-repeat;
+}
 section .container .content .contents .sk_media {
   width: 219px;
   height: 209px;
@@ -183,6 +266,9 @@ section .container .content .contents .sk_media {
   float: left;
   padding: 30px 0 0 19px;
   background: url(../image/sk/bg_grd_03.gif) right bottom repeat-x;
+}
+section .container .content .contents .sk_media h2 {
+  height: 31px;
 }
 section .container .content .contents .sk_global {
   width: 200px;
@@ -194,6 +280,9 @@ section .container .content .contents .sk_global {
   border-right: 1px #eaeaea solid;
   border-bottom: 1px #eaeaea solid;
 }
+section .container .content .contents .sk_global h2 {
+  height: 31px;
+}
 section .container .content .contents .sk_news {
   position: relative;
   float: left;
@@ -201,6 +290,55 @@ section .container .content .contents .sk_news {
   height: 239px;
   border-right: 1px #eaeaea solid;
   border-bottom: 1px #eaeaea solid;
+}
+section .container .content .contents .sk_news .wrap {
+  width: 698px;
+  height: 239px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 19px;
+}
+section .container .content .contents .sk_news .wrap h2 {
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+section .container .content .contents .sk_news .wrap .arr_prev {
+  position: absolute;
+  top: 30px;
+  left: 174px;
+}
+section .container .content .contents .sk_news .wrap .arr_prev img {
+  vertical-align: middle;
+}
+section .container .content .contents .sk_news .wrap .arr_next {
+  position: absolute;
+  top: 30px;
+  left: 194px;
+}
+section .container .content .contents .sk_news .wrap .arr_next img {
+  vertical-align: middle;
+}
+section .container .content .contents .sk_news .wrap dt {
+  position: absolute;
+  top: 58px;
+  float: left;
+}
+section .container .content .contents .sk_news .wrap dt .text {
+  width: 200px;
+  font-family: malgun;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  color: #333;
+  line-height: 20px;
+}
+section .container .content .contents .sk_news .wrap dt .text2 {
+  width: 200px;
+}
+section .container .content .contents .sk_news .wrap dd {
+  float: right;
 }
 section .container .content .contents .divide {
   width: 238px;
@@ -237,6 +375,13 @@ section .container .content .contents .divide .social dd div span {
 }
 section .container .content .contents .divide .social dd div img {
   vertical-align: top;
+}
+section .container .content .contents .divide .nanum {
+  padding: 30px 0 0 19px;
+  border-top: 1px #eaeaea solid;
+}
+section .container .content .contents .divide .nanum dt {
+  height: 31px;
 }
 section .container .content .contents .sk_cf {
   width: 220px;
