@@ -108,7 +108,7 @@ section{
         width: 239px;
         padding: 0 0 0 28px;
         margin: 0 0 0 327px;
-        a{
+        .map_open{
         display: block;
         position: absolute;
         top: 0;
@@ -121,8 +121,70 @@ section{
       .hidemap{
         width: 721px;
         height: 100%;
-        background: url(../image/sk/bg_hiddenmap.gif) right top no-repeat;
+        padding: 31px 0 0 34px;
+        background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+        position: absolute;
+        top: 0;
+        left:-755px;
+        z-index: 1001;
+        .map_close{
+          position: absolute;
+          right: 7px;
+          top: 14px;
+        }
+         .sitemap{
+           height: 333px;
+           background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+           h2{ padding: 0 0 25px 10px;
+             img{display: block;}
+           }
+          h3{
+            width: 126px;
+            float: left;
+            padding-left: 10px;
+            img{display: block;}
+            span{
+              display: block;
+              margin: 22px 0 15px 0;
+            }
+          }
+          ul{
+            width: 126px;
+            padding-left: 10px;
+            float: left;
+            li{
+              font-size: 11px;
+              line-height: 18px;
+              a{
+                color: #666;
+                &:hover{ color: #ea002c; }
+              }
+            }
+          }
+         }
+         .skcompany{
+           height: 332px;
+           padding-top: 30px;
+           h2{ padding:  0 0 33px 10px;
+             img{display: block;}
+           }
+           h3{ height: 30px; padding-left: 10px;
+             img{display: block;}
+           }
+           ul{ padding: 0 0 33px 10px; overflow: hidden;
+             li{
+               float: left;
+               width: 139px;
+               font-size: 11px;
+               line-height: 18px;
+               a{
+                 color: #666;
+                 &:hover{ color: #ea002c; }
                }
+             }
+           }
+         }
+      }
       .content{
                 float: left;
                 width: 100%;
@@ -143,6 +205,13 @@ section{
                       top: 0;
                       left: 0;
                       border-right: 1px #eaeaea solid;
+                      ul{
+                        li{
+
+                        }
+                        li:nth-child(2){display: none;}
+                        li:nth-child(3){display: none;}
+                      }
                       .stop{
                         width: 30px;
                         height: 30px;
@@ -153,7 +222,6 @@ section{
                         background: url(../image/sk/btn_stop.gif);
                       }
                       .play{
-
                         width: 30px;
                         height: 30px;
                         border: 0;

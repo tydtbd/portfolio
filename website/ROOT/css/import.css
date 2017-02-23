@@ -121,7 +121,7 @@ section .container .sitemaparea {
   padding: 0 0 0 28px;
   margin: 0 0 0 327px;
 }
-section .container .sitemaparea a {
+section .container .sitemaparea .map_open {
   display: block;
   position: absolute;
   top: 0;
@@ -133,7 +133,87 @@ section .container .sitemaparea a {
 section .container .hidemap {
   width: 721px;
   height: 100%;
-  background: url(../image/sk/bg_hiddenmap.gif) right top no-repeat;
+  padding: 31px 0 0 34px;
+  background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section .container .hidemap .sitemap {
+  height: 333px;
+  background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+}
+section .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px 0;
+}
+section .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
 }
 section .container .content {
   float: left;
@@ -156,6 +236,12 @@ section .container .content .contents .company .slide {
   top: 0;
   left: 0;
   border-right: 1px #eaeaea solid;
+}
+section .container .content .contents .company .slide ul li:nth-child(2) {
+  display: none;
+}
+section .container .content .contents .company .slide ul li:nth-child(3) {
+  display: none;
 }
 section .container .content .contents .company .slide .stop {
   width: 30px;
