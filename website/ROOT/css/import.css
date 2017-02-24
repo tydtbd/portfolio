@@ -18,6 +18,9 @@ body a {
   text-decoration: none;
   color: #595959;
 }
+body a:hover {
+  color: #000;
+}
 img {
   border: 0;
 }
@@ -97,16 +100,11 @@ header fieldset a {
   top: 5px;
   left: 150px;
 }
-body section {
-  padding: 0 !important;
-  background: none !important;
-}
 section {
   position: relative;
   clear: both;
   width: 100%;
   margin-top: -8px;
-  padding: 0;
   background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
 }
 section .container {
@@ -119,7 +117,7 @@ section .container .sitemaparea {
   float: left;
   width: 239px;
   padding: 0 0 0 28px;
-  margin: 0 0 0 327px;
+  margin: 0 0 0 -327px;
 }
 section .container .sitemaparea .map_open {
   display: block;
@@ -627,14 +625,18 @@ section .container .content .contents .sk_blog .p_img img {
   width: 197px;
   height: 112px;
 }
-section .container .content {
+body#main section {
+  padding: 0 !important;
+  background: none !important;
+}
+body#main section .container .content {
   width: 1200px;
   padding: 0 !important;
 }
-section .container {
+body#main .container {
   padding: 0 0 0 28px;
 }
-section .container .sitemaparea {
+body#main .container .sitemaparea {
   position: relative;
   float: left;
   width: 28px;
@@ -678,4 +680,136 @@ footer .Accessibility {
   position: absolute;
   top: 22px;
   left: 1124px;
+}
+body#about section {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+body#about section .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+body#about section .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+body#about section .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url(../image/sk/leftimg_01.jpg) no-repeat;
+}
+body#about section .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+body#about section .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+body#about section .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+body#about section .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+body#about section .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+body#about section .container .hidemap .sitemap {
+  height: 333px;
+  background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+}
+body#about section .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+body#about section .container .hidemap .sitemap h2 img {
+  display: block;
+}
+body#about section .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+body#about section .container .hidemap .sitemap h3 img {
+  display: block;
+}
+body#about section .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px 0;
+}
+body#about section .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+body#about section .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+body#about section .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+body#about section .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+body#about section .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+body#about section .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+body#about section .container .hidemap .skcompany h2 img {
+  display: block;
+}
+body#about section .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+body#about section .container .hidemap .skcompany h3 img {
+  display: block;
+}
+body#about section .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+body#about section .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+body#about section .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+body#about section .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+body#about section .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px 0;
 }
