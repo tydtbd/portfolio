@@ -5,14 +5,15 @@
 ul {
   list-style: none;
 }
+img {
+  border: 0;
+}
 body {
   background: url(../image/sk/bg_leftmenu_gr.gif) 0 0 repeat-y;
   height: 100%;
   font-size: 12px;
   font-family: Dotum, "돋움";
-  color: #595959;
-  letter-spacing: -1px;
-  line-height: 17px;
+  color: #333;
 }
 body a {
   text-decoration: none;
@@ -20,9 +21,6 @@ body a {
 }
 body a:hover {
   color: #000;
-}
-img {
-  border: 0;
 }
 header {
   height: 103px;
@@ -625,30 +623,15 @@ section .container .content .contents .sk_blog .p_img img {
   width: 197px;
   height: 112px;
 }
-body#main section {
-  padding: 0 !important;
-  background: none !important;
-}
-body#main section .container .content {
-  width: 1200px;
-  padding: 0 !important;
-}
-body#main .container {
-  padding: 0 0 0 28px;
-}
-body#main .container .sitemaparea {
-  position: relative;
-  float: left;
-  width: 28px;
-  padding: 0;
-  margin: 0 0 0 -28px;
-}
 footer {
   position: relative;
   width: 100%;
   height: 129px;
   border-top: 1px #eaeaea solid;
   background-color: #fff;
+  color: #595959;
+  letter-spacing: -1px;
+  line-height: 17px;
 }
 footer h1 {
   position: absolute;
@@ -681,40 +664,63 @@ footer .Accessibility {
   top: 22px;
   left: 1124px;
 }
-body#about section {
+section#main {
+  color: #595959;
+  letter-spacing: -1px;
+  line-height: 17px;
+}
+section#main {
+  padding: 0 !important;
+  background: none !important;
+}
+section#main .container .content {
+  width: 1200px;
+  padding: 0 !important;
+}
+section#main .container {
+  padding: 0 0 0 28px;
+}
+section#main .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 28px;
+  padding: 0;
+  margin: 0 0 0 -28px;
+}
+section#about {
   position: relative;
   clear: both;
   width: 100%;
   margin-top: -8px;
   background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
 }
-body#about section .container {
+section#about .container {
   position: relative;
   padding: 0 259px 0 327px;
   overflow: hidden;
 }
-body#about section .container .sitemaparea {
+section#about .container .sitemaparea {
   position: relative;
   float: left;
   width: 239px;
   padding: 0 0 0 28px;
   margin: 0 0 0 -327px;
 }
-body#about section .container .sitemaparea .menu_img {
+section#about .container .sitemaparea .menu_img {
   width: 238px;
   height: 239px;
   background: url(../image/sk/leftimg_01.jpg) no-repeat;
 }
-body#about section .container .sitemaparea ul {
+section#about .container .sitemaparea ul {
   float: left;
   padding: 21px 0 0 22px;
 }
-body#about section .container .sitemaparea ul li {
+section#about .container .sitemaparea ul li {
   margin-bottom: 2px;
   font-size: 1px;
   line-height: 0;
 }
-body#about section .container .map_open {
+section#about .container .map_open {
   display: block;
   position: absolute;
   top: 0;
@@ -723,7 +729,7 @@ body#about section .container .map_open {
   padding-top: 14px;
   z-index: 1000;
 }
-body#about section .container .hidemap {
+section#about .container .hidemap {
   width: 721px;
   height: 100%;
   padding: 31px 0 0 34px;
@@ -733,83 +739,685 @@ body#about section .container .hidemap {
   left: -755px;
   z-index: 1001;
 }
-body#about section .container .hidemap .map_close {
+section#about .container .hidemap .map_close {
   position: absolute;
   right: 7px;
   top: 14px;
 }
-body#about section .container .hidemap .sitemap {
+section#about .container .hidemap .sitemap {
   height: 333px;
   background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
 }
-body#about section .container .hidemap .sitemap h2 {
+section#about .container .hidemap .sitemap h2 {
   padding: 0 0 25px 10px;
 }
-body#about section .container .hidemap .sitemap h2 img {
+section#about .container .hidemap .sitemap h2 img {
   display: block;
 }
-body#about section .container .hidemap .sitemap h3 {
+section#about .container .hidemap .sitemap h3 {
   width: 126px;
   float: left;
   padding-left: 10px;
 }
-body#about section .container .hidemap .sitemap h3 img {
+section#about .container .hidemap .sitemap h3 img {
   display: block;
 }
-body#about section .container .hidemap .sitemap h3 span {
+section#about .container .hidemap .sitemap h3 span {
   display: block;
   margin: 22px 0 15px 0;
 }
-body#about section .container .hidemap .sitemap ul {
+section#about .container .hidemap .sitemap ul {
   width: 126px;
   padding-left: 10px;
   float: left;
 }
-body#about section .container .hidemap .sitemap ul li {
+section#about .container .hidemap .sitemap ul li {
   font-size: 11px;
   line-height: 18px;
 }
-body#about section .container .hidemap .sitemap ul li a {
+section#about .container .hidemap .sitemap ul li a {
   color: #666;
 }
-body#about section .container .hidemap .sitemap ul li a:hover {
+section#about .container .hidemap .sitemap ul li a:hover {
   color: #ea002c;
 }
-body#about section .container .hidemap .skcompany {
+section#about .container .hidemap .skcompany {
   height: 332px;
   padding-top: 30px;
 }
-body#about section .container .hidemap .skcompany h2 {
+section#about .container .hidemap .skcompany h2 {
   padding: 0 0 33px 10px;
 }
-body#about section .container .hidemap .skcompany h2 img {
+section#about .container .hidemap .skcompany h2 img {
   display: block;
 }
-body#about section .container .hidemap .skcompany h3 {
+section#about .container .hidemap .skcompany h3 {
   height: 30px;
   padding-left: 10px;
 }
-body#about section .container .hidemap .skcompany h3 img {
+section#about .container .hidemap .skcompany h3 img {
   display: block;
 }
-body#about section .container .hidemap .skcompany ul {
+section#about .container .hidemap .skcompany ul {
   padding: 0 0 33px 10px;
   overflow: hidden;
 }
-body#about section .container .hidemap .skcompany ul li {
+section#about .container .hidemap .skcompany ul li {
   float: left;
   width: 139px;
   font-size: 11px;
   line-height: 18px;
 }
-body#about section .container .hidemap .skcompany ul li a {
+section#about .container .hidemap .skcompany ul li a {
   color: #666;
 }
-body#about section .container .hidemap .skcompany ul li a:hover {
+section#about .container .hidemap .skcompany ul li a:hover {
   color: #ea002c;
 }
-body#about section .container .content {
+section#about .container .content {
   float: left;
   width: 100%;
   padding: 50px 0 40px 0;
+}
+section#about .container .content .contents {
+  position: relative;
+  width: 100%;
+}
+section#about .container .content .contents span {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#about .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#about .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url(../image/sk/bg_bar_navi.gif) right 1px no-repeat;
+}
+section#about .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#about .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#about .container .content .contentbox {
+  background: url(../image/sk/bg_overview.gif) right top 63px no-repeat;
+}
+section#about .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#about .container .content .contentbox h4 {
+  height: 180px;
+  padding: 20px 0 30px 0;
+}
+section#about .container .content .contentbox p {
+  line-height: 20px;
+  padding: 20px 0 70px 0;
+}
+section#about .container .content .linkarea {
+  position: absolute;
+  top: 0;
+  right: -289px;
+  width: 201px;
+  height: 100%;
+  margin-top: -20px;
+  padding-left: 28px;
+}
+section#channel {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#channel .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#channel .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#channel .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url(../image/sk/leftimg_01.jpg) no-repeat;
+}
+section#channel .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#channel .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#channel .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#channel .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#channel .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#channel .container .hidemap .sitemap {
+  height: 333px;
+  background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+}
+section#channel .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#channel .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#channel .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#channel .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#channel .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px 0;
+}
+section#channel .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#channel .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#channel .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#channel .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#channel .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#channel .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#channel .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#channel .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#channel .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#channel .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#channel .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#channel .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#channel .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#channel .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px 0;
+}
+section#channel .container .content .contents {
+  position: relative;
+  width: 100%;
+}
+section#channel .container .content .contents span {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#channel .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#channel .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url(../image/sk/bg_bar_navi.gif) right 1px no-repeat;
+}
+section#channel .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#channel .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#channel .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#channel .container .content .contentbox h4 {
+  height: 170px;
+  padding: 15px 0 15px 0;
+  background: url(../image/sk/bg_titbox_channel_02.gif) right bottom no-repeat;
+}
+section#channel .container .content .contentbox p {
+  line-height: 20px;
+  padding: 20px 0 70px 0;
+}
+section#channel .container .content .linkarea {
+  position: absolute;
+  top: 0;
+  right: -289px;
+  width: 201px;
+  height: 100%;
+  margin-top: -20px;
+  padding-left: 28px;
+}
+section#talented {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#talented .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#talented .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#talented .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url(../image/sk/leftimg_01.jpg) no-repeat;
+}
+section#talented .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#talented .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#talented .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#talented .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#talented .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#talented .container .hidemap .sitemap {
+  height: 333px;
+  background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+}
+section#talented .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#talented .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#talented .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#talented .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#talented .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px 0;
+}
+section#talented .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#talented .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#talented .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#talented .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#talented .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#talented .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#talented .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#talented .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#talented .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#talented .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#talented .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#talented .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#talented .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#talented .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px 0;
+}
+section#talented .container .content .contents {
+  position: relative;
+  width: 100%;
+}
+section#talented .container .content .contents span {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#talented .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#talented .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url(../image/sk/bg_bar_navi.gif) right 1px no-repeat;
+}
+section#talented .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#talented .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#talented .container .content .contentbox {
+  background: url(../image/sk/bg_overview.gif) right top no-repeat;
+}
+section#talented .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#talented .container .content .contentbox h4 {
+  height: 180px;
+  padding: 20px 0 30px 0;
+}
+section#talented .container .content .contentbox p {
+  line-height: 20px;
+  padding: 20px 0 70px 0;
+}
+section#talented .container .content .linkarea {
+  position: absolute;
+  top: 0;
+  right: -289px;
+  width: 201px;
+  height: 100%;
+  margin-top: -20px;
+  padding-left: 28px;
+}
+section#divide {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#divide .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#divide .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#divide .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url(../image/sk/leftimg_01.jpg) no-repeat;
+}
+section#divide .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#divide .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#divide .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#divide .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#divide .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#divide .container .hidemap .sitemap {
+  height: 333px;
+  background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+}
+section#divide .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#divide .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#divide .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#divide .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#divide .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px 0;
+}
+section#divide .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#divide .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#divide .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#divide .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#divide .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#divide .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#divide .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#divide .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#divide .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#divide .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#divide .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#divide .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px 0;
+}
+section#divide .container .content .contents {
+  position: relative;
+  width: 100%;
+}
+section#divide .container .content .contents span {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#divide .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#divide .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url(../image/sk/bg_bar_navi.gif) right 1px no-repeat;
+}
+section#divide .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#divide .container .content .contentbox {
+  background: url(../image/sk/bg_overview.gif) right top no-repeat;
+}
+section#divide .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#divide .container .content .contentbox h4 {
+  height: 180px;
+  padding: 20px 0 30px 0;
+}
+section#divide .container .content .contentbox p {
+  line-height: 20px;
+  padding: 20px 0 70px 0;
+}
+section#divide .container .content .linkarea {
+  position: absolute;
+  top: 0;
+  right: -289px;
+  width: 201px;
+  height: 100%;
+  margin-top: -20px;
+  padding-left: 28px;
 }

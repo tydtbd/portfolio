@@ -1,5 +1,23 @@
-body#about {
-  section{
+section#main{color: #595959;
+          letter-spacing: -1px;
+          line-height: 17px;}
+section#main{
+  padding: 0 !important;
+  background: none !important;
+}
+section#main .container .content{
+    width: 1200px;
+    padding: 0 !important;
+  }
+section#main .container{ padding: 0 0 0 28px;}
+section#main .container .sitemaparea {
+                       position: relative;
+                       float: left;
+                       width: 28px;
+                       padding: 0;
+                       margin: 0 0 0 -28px;
+                      }
+section#about{
       position: relative;
       clear: both;
       width: 100%;
@@ -112,9 +130,562 @@ body#about {
                   width: 100%;
                   padding: 50px 0 40px 0;
                   .contents{
+                    position: relative;
+                    width: 100%;
+                    span{
+                      position: absolute;
+                      right: -60px;
+                      top: -49px
+                    }
+                    .navi{
+                      height: 18px;
+                      margin-left: -9px;
+                      li{
+                        font-size: 11px;
+                        color: #595959;
+                        float: left;
+                        padding: 0 10px 0 9px;
+                        background: url(../image/sk/bg_bar_navi.gif) right 1px no-repeat;
+                        a{
+                          font-size: 11px;
+                          color: #595959;
+                        }
+                      }
+                      .choice{
+                        background: none;
+                        color: #000;
+                      }
+                    }
+                  }
+                  .contentbox{
+                    background: url(../image/sk/bg_overview.gif) right top 63px no-repeat;
+                    h3{
+                      height: 63px;
+                      background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+                    }
+                    h4{
+                      height: 180px;
+                      padding: 20px 0 30px 0;
+                    }
+                    p{
+                      line-height: 20px;
+                      padding: 20px 0 70px 0;
+                    }
+                  }
+                  .linkarea{
+                    position: absolute;
+                    top: 0;
+                    right: -289px;
+                    width: 201px;
+                    height: 100%;
+                    margin-top: -20px;
+                    padding-left: 28px;
 
                   }
                 }
               }
             }
+section#channel{
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif)right top repeat-y;
+  .container{
+    position: relative;
+    padding: 0 259px 0 327px;
+    overflow: hidden;
+    .sitemaparea{
+      position: relative;
+      float: left;
+      width: 239px;
+      padding: 0 0 0 28px;
+      margin: 0 0 0 -327px;
+      .menu_img{
+        width: 238px;
+        height: 239px;
+        background: url(../image/sk/leftimg_01.jpg) no-repeat;
+      }
+      ul{
+        float: left;
+        padding: 21px 0 0 22px;
+        li{
+          margin-bottom: 2px;
+          font-size: 1px;
+          line-height: 0;
+        }
+      }
+    }
+      .map_open{
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 7px;
+      height: 24px;
+      padding-top: 14px;
+      z-index: 1000;
+     }
+
+    .hidemap{
+      width: 721px;
+      height: 100%;
+      padding: 31px 0 0 34px;
+      background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+      position: absolute;
+      top: 0;
+      left:-755px;
+      z-index: 1001;
+      .map_close{
+        position: absolute;
+        right: 7px;
+        top: 14px;
+      }
+       .sitemap{
+         height: 333px;
+         background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+         h2{ padding: 0 0 25px 10px;
+           img{display: block;}
+         }
+        h3{
+          width: 126px;
+          float: left;
+          padding-left: 10px;
+          img{display: block;}
+          span{
+            display: block;
+            margin: 22px 0 15px 0;
+          }
+        }
+        ul{
+          width: 126px;
+          padding-left: 10px;
+          float: left;
+          li{
+            font-size: 11px;
+            line-height: 18px;
+            a{
+              color: #666;
+              &:hover{ color: #ea002c; }
+            }
+          }
+        }
+       }
+       .skcompany{
+         height: 332px;
+         padding-top: 30px;
+         h2{ padding:  0 0 33px 10px;
+           img{display: block;}
+         }
+         h3{ height: 30px; padding-left: 10px;
+           img{display: block;}
+         }
+         ul{ padding: 0 0 33px 10px; overflow: hidden;
+           li{
+             float: left;
+             width: 139px;
+             font-size: 11px;
+             line-height: 18px;
+             a{
+               color: #666;
+               &:hover{ color: #ea002c; }
+             }
+           }
+         }
+       }
+    }
+    .content{
+              float: left;
+              width: 100%;
+              padding: 50px 0 40px 0;
+              .contents{
+                position: relative;
+                width: 100%;
+                span{
+                  position: absolute;
+                  right: -60px;
+                  top: -49px
+                }
+                .navi{
+                  height: 18px;
+                  margin-left: -9px;
+                  li{
+                    font-size: 11px;
+                    color: #595959;
+                    float: left;
+                    padding: 0 10px 0 9px;
+                    background: url(../image/sk/bg_bar_navi.gif) right 1px no-repeat;
+                    a{
+                      font-size: 11px;
+                      color: #595959;
+                    }
+                  }
+                  .choice{
+                    background: none;
+                    color: #000;
+                  }
+                }
+              }
+              .contentbox{
+                h3{
+                  height: 63px;
+                  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+                }
+                h4{
+                  height: 170px;
+                  padding: 15px 0 15px 0;
+                  background: url(../image/sk/bg_titbox_channel_02.gif) right bottom no-repeat;
+                }
+                p{
+                  line-height: 20px;
+                  padding: 20px 0 70px 0;
+                }
+              }
+              .linkarea{
+                position: absolute;
+                top: 0;
+                right: -289px;
+                width: 201px;
+                height: 100%;
+                margin-top: -20px;
+                padding-left: 28px;
+
+              }
+            }
+          }
+}
+section#talented{
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif)right top repeat-y;
+  .container{
+    position: relative;
+    padding: 0 259px 0 327px;
+    overflow: hidden;
+    .sitemaparea{
+      position: relative;
+      float: left;
+      width: 239px;
+      padding: 0 0 0 28px;
+      margin: 0 0 0 -327px;
+      .menu_img{
+        width: 238px;
+        height: 239px;
+        background: url(../image/sk/leftimg_01.jpg) no-repeat;
+      }
+      ul{
+        float: left;
+        padding: 21px 0 0 22px;
+        li{
+          margin-bottom: 2px;
+          font-size: 1px;
+          line-height: 0;
+        }
+      }
+    }
+      .map_open{
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 7px;
+      height: 24px;
+      padding-top: 14px;
+      z-index: 1000;
+     }
+
+    .hidemap{
+      width: 721px;
+      height: 100%;
+      padding: 31px 0 0 34px;
+      background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+      position: absolute;
+      top: 0;
+      left:-755px;
+      z-index: 1001;
+      .map_close{
+        position: absolute;
+        right: 7px;
+        top: 14px;
+      }
+       .sitemap{
+         height: 333px;
+         background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+         h2{ padding: 0 0 25px 10px;
+           img{display: block;}
+         }
+        h3{
+          width: 126px;
+          float: left;
+          padding-left: 10px;
+          img{display: block;}
+          span{
+            display: block;
+            margin: 22px 0 15px 0;
+          }
+        }
+        ul{
+          width: 126px;
+          padding-left: 10px;
+          float: left;
+          li{
+            font-size: 11px;
+            line-height: 18px;
+            a{
+              color: #666;
+              &:hover{ color: #ea002c; }
+            }
+          }
+        }
+       }
+       .skcompany{
+         height: 332px;
+         padding-top: 30px;
+         h2{ padding:  0 0 33px 10px;
+           img{display: block;}
+         }
+         h3{ height: 30px; padding-left: 10px;
+           img{display: block;}
+         }
+         ul{ padding: 0 0 33px 10px; overflow: hidden;
+           li{
+             float: left;
+             width: 139px;
+             font-size: 11px;
+             line-height: 18px;
+             a{
+               color: #666;
+               &:hover{ color: #ea002c; }
+             }
+           }
+         }
+       }
+    }
+    .content{
+              float: left;
+              width: 100%;
+              padding: 50px 0 40px 0;
+              .contents{
+                position: relative;
+                width: 100%;
+                span{
+                  position: absolute;
+                  right: -60px;
+                  top: -49px
+                }
+                .navi{
+                  height: 18px;
+                  margin-left: -9px;
+                  li{
+                    font-size: 11px;
+                    color: #595959;
+                    float: left;
+                    padding: 0 10px 0 9px;
+                    background: url(../image/sk/bg_bar_navi.gif) right 1px no-repeat;
+                    a{
+                      font-size: 11px;
+                      color: #595959;
+                    }
+                  }
+                  .choice{
+                    background: none;
+                    color: #000;
+                  }
+                }
+              }
+              .contentbox{
+                background: url(../image/sk/bg_overview.gif) right top no-repeat;
+                h3{
+                  height: 63px;
+                  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+                }
+                h4{
+                  height: 180px;
+                  padding: 20px 0 30px 0;
+                }
+                p{
+                  line-height: 20px;
+                  padding: 20px 0 70px 0;
+                }
+              }
+              .linkarea{
+                position: absolute;
+                top: 0;
+                right: -289px;
+                width: 201px;
+                height: 100%;
+                margin-top: -20px;
+                padding-left: 28px;
+
+              }
+            }
+          }
+}
+section#divide{
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif)right top repeat-y;
+  .container{
+    position: relative;
+    padding: 0 259px 0 327px;
+    overflow: hidden;
+    .sitemaparea{
+      position: relative;
+      float: left;
+      width: 239px;
+      padding: 0 0 0 28px;
+      margin: 0 0 0 -327px;
+      .menu_img{
+        width: 238px;
+        height: 239px;
+        background: url(../image/sk/leftimg_01.jpg) no-repeat;
+      }
+      ul{
+        float: left;
+        padding: 21px 0 0 22px;
+        li{
+          margin-bottom: 2px;
+          font-size: 1px;
+          line-height: 0;
+        }
+      }
+    }
+      .map_open{
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 7px;
+      height: 24px;
+      padding-top: 14px;
+      z-index: 1000;
+     }
+
+    .hidemap{
+      width: 721px;
+      height: 100%;
+      padding: 31px 0 0 34px;
+      background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+      position: absolute;
+      top: 0;
+      left:-755px;
+      z-index: 1001;
+      .map_close{
+        position: absolute;
+        right: 7px;
+        top: 14px;
+      }
+       .sitemap{
+         height: 333px;
+         background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+         h2{ padding: 0 0 25px 10px;
+           img{display: block;}
+         }
+        h3{
+          width: 126px;
+          float: left;
+          padding-left: 10px;
+          img{display: block;}
+          span{
+            display: block;
+            margin: 22px 0 15px 0;
+          }
+        }
+        ul{
+          width: 126px;
+          padding-left: 10px;
+          float: left;
+          li{
+            font-size: 11px;
+            line-height: 18px;
+            a{
+              color: #666;
+              &:hover{ color: #ea002c; }
+            }
+          }
+        }
+       }
+       .skcompany{
+         height: 332px;
+         padding-top: 30px;
+         h2{ padding:  0 0 33px 10px;
+           img{display: block;}
+         }
+         h3{ height: 30px; padding-left: 10px;
+           img{display: block;}
+         }
+         ul{ padding: 0 0 33px 10px; overflow: hidden;
+           li{
+             float: left;
+             width: 139px;
+             font-size: 11px;
+             line-height: 18px;
+             a{
+               color: #666;
+               &:hover{ color: #ea002c; }
+             }
+           }
+         }
+       }
+    }
+    .content{
+              float: left;
+              width: 100%;
+              padding: 50px 0 40px 0;
+              .contents{
+                position: relative;
+                width: 100%;
+                span{
+                  position: absolute;
+                  right: -60px;
+                  top: -49px
+                }
+                .navi{
+                  height: 18px;
+                  margin-left: -9px;
+                  li{
+                    font-size: 11px;
+                    color: #595959;
+                    float: left;
+                    padding: 0 10px 0 9px;
+                    background: url(../image/sk/bg_bar_navi.gif) right 1px no-repeat;
+                    a{
+                      font-size: 11px;
+                      color: #595959;
+                    }
+                  }
+                  .choice{
+                    background: none;
+                    color: #000;
+                  }
+                }
+              }
+              .contentbox{
+                background: url(../image/sk/bg_overview.gif) right top no-repeat;
+                h3{
+                  height: 63px;
+                  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+                }
+                h4{
+                  height: 180px;
+                  padding: 20px 0 30px 0;
+                }
+                p{
+                  line-height: 20px;
+                  padding: 20px 0 70px 0;
+                }
+              }
+              .linkarea{
+                position: absolute;
+                top: 0;
+                right: -289px;
+                width: 201px;
+                height: 100%;
+                margin-top: -20px;
+                padding-left: 28px;
+
+              }
+            }
+          }
 }
