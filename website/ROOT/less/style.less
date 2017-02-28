@@ -32,6 +32,7 @@ header{
          float: left;
          padding: 0 8px 0 7px;
          background: url(../image/sk/bg_bar_gnb.gif) right 3px no-repeat;
+         img{display: block;}
        }
        li:last-child{
          padding-right: 0;
@@ -55,7 +56,7 @@ header{
        position: absolute;
        top: 58px;
        right: 250px;
-      li{float: left;padding-right: 2px;}
+      li{float: left;padding: 0 2px;}
      }
      fieldset{
        position: absolute;
@@ -214,6 +215,7 @@ section{
                         bottom: 15px;
                         right: 47px;
                         background: url(../image/sk/btn_stop.gif);
+                        &:hover{ background: url(../image/sk/btn_stop_over.gif);}
                       }
                       .play{
                         width: 30px;
@@ -223,6 +225,7 @@ section{
                         bottom: 15px;
                         right: 15px;
                         background: url(../image/sk/btn_play.gif);
+                        &:hover{ background: url(../image/sk/btn_play_over.gif);}
                       }
                       .left{
                         position: absolute;
@@ -590,6 +593,7 @@ footer{
     li{
       float: left;
       margin-right: 20px;
+      img{ display: block;}
     }
   }
   p{
