@@ -5025,6 +5025,7 @@ section#nurture .container .content .contentbox .program .programs > li div {
   text-align: left;
   min-height: 280px;
   border: 1px #e9e9e7 solid;
+  line-height: 1;
 }
 section#nurture .container .content .contentbox .program .programs > li div span {
   display: block;
@@ -5035,8 +5036,6 @@ section#nurture .container .content .contentbox .program .programs > li div span
 section#nurture .container .content .contentbox .program .programs > li div ul li {
   padding-left: 10px;
   text-indent: -10px;
-}
-section#nurture .container .content .contentbox .program .programs > li div ul li:first-child {
   margin-bottom: 10px;
 }
 section#nurture .container .content .contentbox .program .programs > li div p {
@@ -5046,4 +5045,673 @@ section#nurture .container .content .contentbox .program .programs > li div p {
 }
 section#nurture .container .content .contentbox .program .programs li.last {
   margin-right: 0;
+}
+section#nurture .container .content .contentbox .program .program2 {
+  text-align: center;
+  padding: 20px 4%;
+  border: 1px #e9e9e7 solid;
+  clear: both;
+  width: 91.25%;
+}
+section#indemnify {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#indemnify .linkarea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 173px;
+  height: 100%;
+}
+section#indemnify .linkarea .linkwrap {
+  padding-top: 30px;
+}
+section#indemnify .linkarea .linkwrap .link_box {
+  width: 125px;
+}
+section#indemnify .linkarea .linkwrap .link_box h3 {
+  font-family: arial;
+  font-size: 14px;
+  padding: 50px 0 20px;
+  color: #000;
+}
+section#indemnify .linkarea .linkwrap .link_box ul {
+  font-size: 11px;
+  color: #595959;
+}
+section#indemnify .linkarea .linkwrap .link_box ul a {
+  display: block;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+section#indemnify .linkarea .linkwrap .link_box ul a:hover {
+  color: #ea002d;
+}
+section#indemnify .linkarea .linkwrap .adobe {
+  display: block;
+  padding-top: 30px;
+}
+section#indemnify .linkarea .linkwrap .top_button {
+  display: block;
+  position: absolute;
+  bottom: 65px;
+  left: 43px;
+}
+section#indemnify .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#indemnify .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#indemnify .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url(../image/sk/leftimg_01.jpg) no-repeat;
+}
+section#indemnify .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#indemnify .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#indemnify .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#indemnify .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#indemnify .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#indemnify .container .hidemap .sitemap {
+  height: 333px;
+  background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+}
+section#indemnify .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#indemnify .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#indemnify .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#indemnify .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#indemnify .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px;
+}
+section#indemnify .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#indemnify .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#indemnify .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#indemnify .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#indemnify .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#indemnify .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#indemnify .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#indemnify .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#indemnify .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#indemnify .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#indemnify .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#indemnify .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#indemnify .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#indemnify .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+section#indemnify .container .content .contents {
+  position: relative;
+  width: 100%;
+}
+section#indemnify .container .content .contents .arr_next {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#indemnify .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#indemnify .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+}
+section#indemnify .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#indemnify .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#indemnify .container .content .contentbox {
+  min-height: 600px;
+  padding-bottom: 30px;
+}
+section#indemnify .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#indemnify .container .content .contentbox h4 {
+  height: 200px;
+  padding-top: 20px;
+  background: url(../image/sk/bg_recruit_03.gif) right top no-repeat;
+}
+section#indemnify .container .content .contentbox .work_txt {
+  width: 100%;
+  margin-bottom: 20px;
+  background: url(../image/sk/bg_boxline_left.gif) left bottom no-repeat;
+}
+section#indemnify .container .content .contentbox .work_txt p {
+  line-height: 20px;
+  padding-bottom: 20px;
+  background: url(../image/sk/dot_rightred.gif) right bottom no-repeat;
+}
+section#indemnify .container .content .contentbox .appraisal {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: url(../image/sk/bg_boxline_left.gif) left bottom no-repeat;
+}
+section#indemnify .container .content .contentbox .appraisal h5 {
+  font-family: malgun;
+  font-size: 18px;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+section#indemnify .container .content .contentbox .appraisal p {
+  line-height: 20px;
+  text-align: left;
+}
+section#indemnify .container .content .contentbox .appraisal img {
+  margin: 35px 0 25px;
+}
+section#indemnify .container .content .contentbox .reward h5 {
+  font-family: malgun;
+  font-size: 18px;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+section#indemnify .container .content .contentbox .reward p {
+  line-height: 20px;
+}
+section#indemnify .container .content .contentbox .reward ul {
+  overflow: hidden;
+  padding: 20px 0 30px 0;
+}
+section#indemnify .container .content .contentbox .reward ul li {
+  border: 1px #e9e9e7 solid;
+  text-align: center;
+  padding: 15px 0;
+}
+section#indemnify .container .content .contentbox .welfare {
+  width: 100%;
+  background: url(../image/sk/bg_boxline_left.gif) left top no-repeat;
+}
+section#indemnify .container .content .contentbox .welfare h5 {
+  font-family: malgun;
+  font-size: 18px;
+  letter-spacing: -1px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  background: url(../image/sk/dot_rightred.gif) right top no-repeat;
+}
+section#indemnify .container .content .contentbox .welfare h5 p {
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: Dotum;
+  line-height: 18px;
+}
+section#indemnify .container .content .contentbox .welfare h6 {
+  margin-bottom: 10px;
+}
+section#indemnify .container .content .contentbox .welfare .detail {
+  border: 1px #e9e9e7 solid;
+  padding: 30px 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+section#indemnify .container .content .contentbox .welfare .detail .box {
+  float: left;
+  width: 49.9%;
+}
+section#indemnify .container .content .contentbox .welfare .detail .box2 {
+  float: left;
+  width: 49.9%;
+}
+section#indemnify .container .content .contentbox .welfare .detail dl {
+  padding: 0 0 18px 40px;
+}
+section#indemnify .container .content .contentbox .welfare .detail dl dt {
+  width: 70px;
+  padding-top: 5px;
+  float: left;
+}
+section#indemnify .container .content .contentbox .welfare .detail dl dd {
+  padding-top: 10px;
+  overflow: hidden;
+  height: 50px;
+}
+section#indemnify .container .content .contentbox .welfare .detail dl dd p {
+  padding-left: 7px;
+  color: #ea002c;
+  padding-bottom: 2px;
+}
+section#indemnify .container .content .contentbox .welfare .detail dl dd ul {
+  line-height: 19px;
+  overflow: hidden;
+}
+section#indemnify .container .content .contentbox .welfare .detail dl dd ul li {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: 12px;
+  padding-left: 8px;
+  background: url(../image/sk/icon_list_01.gif) 0 7px no-repeat;
+}
+section#indemnify .container .content .contentbox .welfare .red {
+  color: #ea002c;
+}
+section#recruitment {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#recruitment .linkarea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 173px;
+  height: 100%;
+}
+section#recruitment .linkarea .linkwrap {
+  padding-top: 30px;
+}
+section#recruitment .linkarea .linkwrap .link_box {
+  width: 125px;
+}
+section#recruitment .linkarea .linkwrap .link_box h3 {
+  font-family: arial;
+  font-size: 14px;
+  padding: 50px 0 20px;
+  color: #000;
+}
+section#recruitment .linkarea .linkwrap .link_box ul {
+  font-size: 11px;
+  color: #595959;
+}
+section#recruitment .linkarea .linkwrap .link_box ul a {
+  display: block;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+section#recruitment .linkarea .linkwrap .link_box ul a:hover {
+  color: #ea002d;
+}
+section#recruitment .linkarea .linkwrap .adobe {
+  display: block;
+  padding-top: 30px;
+}
+section#recruitment .linkarea .linkwrap .top_button {
+  display: block;
+  position: absolute;
+  bottom: 65px;
+  left: 43px;
+}
+section#recruitment .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#recruitment .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#recruitment .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url(../image/sk/leftimg_01.jpg) no-repeat;
+}
+section#recruitment .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#recruitment .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#recruitment .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#recruitment .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#recruitment .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#recruitment .container .hidemap .sitemap {
+  height: 333px;
+  background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+}
+section#recruitment .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#recruitment .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#recruitment .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#recruitment .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#recruitment .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px;
+}
+section#recruitment .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#recruitment .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#recruitment .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#recruitment .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#recruitment .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#recruitment .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#recruitment .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#recruitment .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#recruitment .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#recruitment .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#recruitment .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#recruitment .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#recruitment .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#recruitment .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+section#recruitment .container .content .contents {
+  position: relative;
+  width: 100%;
+}
+section#recruitment .container .content .contents .arr_next {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#recruitment .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#recruitment .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+}
+section#recruitment .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#recruitment .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#recruitment .container .content .contentbox {
+  min-height: 600px;
+  padding-bottom: 30px;
+}
+section#recruitment .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#recruitment .container .content .contentbox h4 {
+  height: 195px;
+  padding-top: 20px;
+  background: url(../image/sk/bg_recruit.gif) right top no-repeat;
+}
+section#recruitment .container .content .contentbox .list {
+  position: relative;
+  padding-bottom: 8px;
+}
+section#recruitment .container .content .contentbox .list .listline {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  background: url(../image/sk/bg_boxline_left.gif) left bottom no-repeat;
+}
+section#recruitment .container .content .contentbox .list .listline p {
+  background: url(../image/sk/dot_rightred.gif) right bottom no-repeat;
+  padding-top: 14px;
+}
+section#recruitment .container .content .contentbox .list label {
+  vertical-align: middle;
+  padding: 0 4px 0 8px;
+  background: url(../image/sk/icon_list_02.gif) 0 4px no-repeat;
+}
+section#recruitment .container .content .contentbox .list select {
+  width: 145px;
+  font-family: Dotum;
+  vertical-align: middle;
+}
+section#recruitment .container .content .contentbox .list input {
+  vertical-align: middle;
+}
+section#recruitment .container .content .contentbox .list a {
+  display: block;
+  width: 128px;
+  height: 21px;
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+section#recruitment .container .content .contentbox table {
+  width: 100%;
+  border-top: 1px #ea002c solid;
+}
+section#recruitment .container .content .contentbox table thead th {
+  padding: 10px 0 8px 0;
+  font-size: 11px;
+  text-align: center;
+  background-color: #fbfbfb;
+  border-bottom: 1px #f5f5f5 solid;
+}
+section#recruitment .container .content .contentbox table tbody td {
+  padding-top: 7px;
+  padding-bottom: 5px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 11px;
+  border-right: 1px #f5f5f5 solid;
+  border-bottom: 1px #f5f5f5 solid;
+}
+section#recruitment .container .content .contentbox table td.title {
+  padding: 0 10px 0 20px;
+  text-align: left;
+}
+section#recruitment .container .content .contentbox table td.title a {
+  color: #333;
+}
+section#recruitment .container .content .contentbox table td.title a:hover {
+  color: #ea002c;
+}
+section#recruitment .container .content .contentbox table td.date {
+  font-family: tahoma;
+  border-right: none;
+}
+section#recruitment .container .content .contentbox .page ul {
+  float: left;
+  margin-top: 25px;
+  padding: 0 10px;
+  border: 1px #ededed solid;
+}
+section#recruitment .container .content .contentbox .page ul li:first-child {
+  color: #ea002c;
+  background: url(../image/sk/bg_bar_01.gif) right center no-repeat;
+}
+section#recruitment .container .content .contentbox .page ul li:first-child label {
+  color: #888;
+}
+section#recruitment .container .content .contentbox .page ul li {
+  float: left;
+  height: 23px;
+  padding: 0 8px;
+  color: #333;
+  font-size: 10px;
+  font-family: tahoma, sans-serif;
+  line-height: 23px;
+}
+section#recruitment .container .content .contentbox .page ul li label {
+  color: #000;
+}
+section#recruitment .container .content .contentbox .paging {
+  float: right;
+  margin-top: 25px;
+  text-align: center;
+}
+section#recruitment .container .content .contentbox .paging span a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 23px;
+  height: 23px;
+  font-size: 10px;
+  font-family: tahoma, sans-serif;
+  color: #888;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ededed;
+  line-height: 23px;
+}
+section#recruitment .container .content .contentbox .paging span a.selected {
+  color: #fff;
+  background-color: #ea002c;
 }
