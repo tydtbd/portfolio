@@ -5715,3 +5715,1173 @@ section#recruitment .container .content .contentbox .paging span a.selected {
   color: #fff;
   background-color: #ea002c;
 }
+section#divide_02 {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#divide_02 .linkarea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 173px;
+  height: 100%;
+}
+section#divide_02 .linkarea .linkwrap {
+  padding-top: 30px;
+}
+section#divide_02 .linkarea .linkwrap .link_box {
+  width: 125px;
+}
+section#divide_02 .linkarea .linkwrap .link_box h3 {
+  font-family: arial;
+  font-size: 14px;
+  padding: 50px 0 20px;
+  color: #000;
+}
+section#divide_02 .linkarea .linkwrap .link_box ul {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_02 .linkarea .linkwrap .link_box ul a {
+  display: block;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+section#divide_02 .linkarea .linkwrap .link_box ul a:hover {
+  color: #ea002d;
+}
+section#divide_02 .linkarea .linkwrap .link_box2 {
+  padding: 30px 0;
+  margin-left: -24px;
+}
+section#divide_02 .linkarea .linkwrap .link_box2 ul {
+  border-top: 1px #f4f4f4 solid;
+}
+section#divide_02 .linkarea .linkwrap .link_box2 ul li {
+  padding: 10px 0 10px 24px;
+  border-bottom: 1px #f4f4f4 solid;
+  display: block;
+  width: 145px;
+}
+section#divide_02 .linkarea .linkwrap .link_box2 ul li a {
+  padding-right: 14px;
+  background: url("../image/sk/icon_arr_01.gif") right 0 no-repeat;
+}
+section#divide_02 .linkarea .linkwrap .adobe {
+  display: block;
+  padding-top: 15px;
+}
+section#divide_02 .linkarea .linkwrap .top_button {
+  display: block;
+  position: absolute;
+  bottom: 65px;
+  left: 43px;
+}
+section#divide_02 .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#divide_02 .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#divide_02 .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url("../image/sk/leftimg_01.jpg") no-repeat;
+}
+section#divide_02 .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#divide_02 .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#divide_02 .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#divide_02 .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url("../image/sk/bg_hiddenmap.jpg") right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#divide_02 .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#divide_02 .container .hidemap .sitemap {
+  height: 333px;
+  background: url("../image/sk/bg_sitemap.gif") 120px bottom no-repeat;
+}
+section#divide_02 .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#divide_02 .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#divide_02 .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#divide_02 .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#divide_02 .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px;
+}
+section#divide_02 .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#divide_02 .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_02 .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#divide_02 .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#divide_02 .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#divide_02 .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#divide_02 .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#divide_02 .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#divide_02 .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#divide_02 .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#divide_02 .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_02 .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#divide_02 .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#divide_02 .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+section#divide_02 .container .content .contents {
+  position: relative;
+  width: 100%;
+}
+section#divide_02 .container .content .contents .red {
+  color: #ea002c;
+}
+section#divide_02 .container .content .contents .orange {
+  color: #ffab6b;
+  font-size: 11px;
+}
+section#divide_02 .container .content .contents .arr_next {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#divide_02 .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#divide_02 .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+}
+section#divide_02 .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_02 .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#divide_02 .container .content .contentbox {
+  min-height: 600px;
+  line-height: 20px;
+  background: url(../image/sk/bg_csr_01.gif) right top 63px no-repeat;
+}
+section#divide_02 .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#divide_02 .container .content .contentbox h4 {
+  height: 466px;
+  padding-top: 16px;
+  background: url(../image/sk/bg_csr_0201.jpg) right 0 no-repeat;
+}
+section#divide_02 .container .content .contentbox .b15 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ea002c;
+  padding-bottom: 15px;
+}
+section#divide_02 .container .content .contentbox .csr_txt {
+  width: 100%;
+  overflow: hidden;
+  background: url(../image/sk/bg_boxline_left.gif) left bottom no-repeat;
+}
+section#divide_02 .container .content .contentbox .csr_txt .cwrap {
+  padding-bottom: 30px;
+  line-height: 19px;
+  background: url(../image/sk/dot_rightred.gif) right bottom no-repeat;
+}
+section#divide_02 .container .content .contentbox .csr_txt .cwrap ul {
+  padding: 10px 0 10px 0;
+  line-height: 20px;
+}
+section#divide_02 .container .content .contentbox .csr_txt .cwrap ul li {
+  padding-left: 8px;
+  margin-bottom: 4px;
+  background: url(../image/sk/icon_list_04.gif) 2px 9px no-repeat;
+}
+section#divide_02 .container .content .contentbox .csr_txt .csbox {
+  padding-top: 15px;
+}
+section#divide_02 .container .content .contentbox .csr_txt .csbox .circle {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  width: 245px;
+}
+section#divide_02 .container .content .contentbox .csr_txt .csbox ul {
+  padding: 0 0 5px 23px;
+  line-height: 20px;
+}
+section#divide_02 .container .content .contentbox .csr_txt .csbox ul li {
+  padding: 0 0 20px 8px;
+  background: url(../image/sk/icon_list_04.gif) 2px 9px no-repeat;
+}
+section#divide_02 .container .content .contentbox .csr_txt .txt_01 {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+section#divide_02 .container .content .contentbox .csr_txt .txt_02 {
+  padding-bottom: 15px;
+}
+section#divide_02 .container .content .contentbox .csr_txt .txt_03 {
+  padding-bottom: 25px;
+  float: right;
+}
+section#divide_02 .container .content .contentbox .csr_txt .txt_04 {
+  padding-bottom: 30px;
+  background: url(../image/sk/dot_rightred.gif) right bottom no-repeat;
+}
+section#divide_02 .container .content .contentbox .socialint {
+  margin: 25px 0;
+  overflow: hidden;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_01 {
+  width: 100%;
+  margin-bottom: 35px;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_01 dl {
+  width: 25%;
+  height: 320px;
+  display: inline-block;
+  padding-right: 7%;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_01 dl dt {
+  padding: 0 0 15px 7px;
+  float: left;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_01 dl dd {
+  float: left;
+  word-spacing: -1px;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_01 dl dd label {
+  display: block;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_01 dl dd .url {
+  padding-bottom: 3px;
+  color: #FF5A00;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_01 dl dd .url a {
+  text-decoration: underline;
+  color: #FF5A00;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_02 {
+  width: 100%;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_02 dl {
+  width: 25%;
+  height: 320px;
+  display: inline-block;
+  padding-right: 7%;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_02 dl dt {
+  padding: 0 0 15px 7px;
+  float: left;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_02 dl dd {
+  float: left;
+  word-spacing: -1px;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_02 dl dd label {
+  display: block;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_02 dl dd .url {
+  padding-bottom: 3px;
+  color: #FF5A00;
+}
+section#divide_02 .container .content .contentbox .socialint .skbox_02 dl dd .url a {
+  text-decoration: underline;
+  color: #FF5A00;
+}
+section#divide_02 .container .content .contentbox h5 {
+  font-family: malgun;
+  font-size: 18px;
+  letter-spacing: -1px;
+  margin: 30px 0 15px 0;
+  line-height: 21px;
+}
+section#divide_03 {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#divide_03 .linkarea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 173px;
+  height: 100%;
+}
+section#divide_03 .linkarea .linkwrap {
+  padding-top: 30px;
+}
+section#divide_03 .linkarea .linkwrap .link_box {
+  width: 125px;
+}
+section#divide_03 .linkarea .linkwrap .link_box h3 {
+  font-family: arial;
+  font-size: 14px;
+  padding: 50px 0 20px;
+  color: #000;
+}
+section#divide_03 .linkarea .linkwrap .link_box ul {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_03 .linkarea .linkwrap .link_box ul a {
+  display: block;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+section#divide_03 .linkarea .linkwrap .link_box ul a:hover {
+  color: #ea002d;
+}
+section#divide_03 .linkarea .linkwrap .link_box2 {
+  padding: 30px 0;
+  margin-left: -24px;
+}
+section#divide_03 .linkarea .linkwrap .link_box2 ul {
+  border-top: 1px #f4f4f4 solid;
+}
+section#divide_03 .linkarea .linkwrap .link_box2 ul li {
+  padding: 10px 0 10px 24px;
+  border-bottom: 1px #f4f4f4 solid;
+  display: block;
+  width: 145px;
+}
+section#divide_03 .linkarea .linkwrap .link_box2 ul li a {
+  padding-right: 14px;
+  background: url("../image/sk/icon_arr_01.gif") right 0 no-repeat;
+}
+section#divide_03 .linkarea .linkwrap .adobe {
+  display: block;
+  padding-top: 15px;
+}
+section#divide_03 .linkarea .linkwrap .top_button {
+  display: block;
+  position: absolute;
+  bottom: 65px;
+  left: 43px;
+}
+section#divide_03 .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#divide_03 .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#divide_03 .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url("../image/sk/leftimg_01.jpg") no-repeat;
+}
+section#divide_03 .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#divide_03 .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#divide_03 .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#divide_03 .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url("../image/sk/bg_hiddenmap.jpg") right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#divide_03 .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#divide_03 .container .hidemap .sitemap {
+  height: 333px;
+  background: url("../image/sk/bg_sitemap.gif") 120px bottom no-repeat;
+}
+section#divide_03 .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#divide_03 .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#divide_03 .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#divide_03 .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#divide_03 .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px;
+}
+section#divide_03 .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#divide_03 .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_03 .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#divide_03 .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#divide_03 .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#divide_03 .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#divide_03 .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#divide_03 .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#divide_03 .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#divide_03 .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#divide_03 .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_03 .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#divide_03 .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#divide_03 .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+section#divide_03 .container .content .contents {
+  position: relative;
+  width: 100%;
+}
+section#divide_03 .container .content .contents .red {
+  color: #ea002c;
+}
+section#divide_03 .container .content .contents .orange {
+  color: #ffab6b;
+  font-size: 11px;
+}
+section#divide_03 .container .content .contents .arr_next {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#divide_03 .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#divide_03 .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+}
+section#divide_03 .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_03 .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#divide_03 .container .content .contentbox {
+  min-height: 600px;
+}
+section#divide_03 .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#divide_03 .container .content .contentbox h4 {
+  height: 210px;
+  margin-top: 16px;
+  background: url(../image/sk/bg_csr_03.gif) right 0 no-repeat;
+}
+section#divide_03 .container .content .contentbox .csr_img {
+  padding-bottom: 50px;
+  text-align: center;
+}
+section#divide_03 .container .content .contentbox .csr_img img {
+  max-width: 332px;
+  max-height: 215px;
+  width: 50%;
+}
+section#divide_03 .container .content .contentbox .csr_txt {
+  width: 100%;
+  line-height: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  background: url(../image/sk/bg_boxline_left.gif) left bottom no-repeat;
+}
+section#divide_03 .container .content .contentbox h5 {
+  font-size: 18px;
+  font-family: malgun;
+  letter-spacing: -1px;
+  padding: 5px 0 20px 0;
+  color: #333;
+}
+section#divide_03 .container .content .contentbox p {
+  line-height: 20px;
+}
+section#divide_03 .container .content .contentbox .txtarea img {
+  margin-left: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  float: right;
+}
+section#divide_04 {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#divide_04 .linkarea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 173px;
+  height: 100%;
+}
+section#divide_04 .linkarea .linkwrap {
+  padding-top: 30px;
+}
+section#divide_04 .linkarea .linkwrap .link_box {
+  width: 125px;
+}
+section#divide_04 .linkarea .linkwrap .link_box h3 {
+  font-family: arial;
+  font-size: 14px;
+  padding: 50px 0 20px;
+  color: #000;
+}
+section#divide_04 .linkarea .linkwrap .link_box ul {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_04 .linkarea .linkwrap .link_box ul a {
+  display: block;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+section#divide_04 .linkarea .linkwrap .link_box ul a:hover {
+  color: #ea002d;
+}
+section#divide_04 .linkarea .linkwrap .link_box2 {
+  padding: 30px 0;
+  margin-left: -24px;
+}
+section#divide_04 .linkarea .linkwrap .link_box2 ul {
+  border-top: 1px #f4f4f4 solid;
+}
+section#divide_04 .linkarea .linkwrap .link_box2 ul li {
+  padding: 10px 0 10px 24px;
+  border-bottom: 1px #f4f4f4 solid;
+  display: block;
+  width: 145px;
+}
+section#divide_04 .linkarea .linkwrap .link_box2 ul li a {
+  padding-right: 14px;
+  background: url("../image/sk/icon_arr_01.gif") right 0 no-repeat;
+}
+section#divide_04 .linkarea .linkwrap .adobe {
+  display: block;
+  padding-top: 15px;
+}
+section#divide_04 .linkarea .linkwrap .top_button {
+  display: block;
+  position: absolute;
+  bottom: 65px;
+  left: 43px;
+}
+section#divide_04 .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#divide_04 .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#divide_04 .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url("../image/sk/leftimg_01.jpg") no-repeat;
+}
+section#divide_04 .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#divide_04 .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#divide_04 .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#divide_04 .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url("../image/sk/bg_hiddenmap.jpg") right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#divide_04 .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#divide_04 .container .hidemap .sitemap {
+  height: 333px;
+  background: url("../image/sk/bg_sitemap.gif") 120px bottom no-repeat;
+}
+section#divide_04 .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#divide_04 .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#divide_04 .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#divide_04 .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#divide_04 .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px;
+}
+section#divide_04 .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#divide_04 .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_04 .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#divide_04 .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#divide_04 .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#divide_04 .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#divide_04 .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#divide_04 .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#divide_04 .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#divide_04 .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#divide_04 .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_04 .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#divide_04 .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#divide_04 .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+section#divide_04 .container .content .contents {
+  position: relative;
+  width: 100%;
+}
+section#divide_04 .container .content .contents .red {
+  color: #ea002c;
+}
+section#divide_04 .container .content .contents .orange {
+  color: #ffab6b;
+  font-size: 11px;
+}
+section#divide_04 .container .content .contents .arr_next {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#divide_04 .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#divide_04 .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+}
+section#divide_04 .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_04 .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#divide_04 .container .content .contentbox {
+  min-height: 600px;
+}
+section#divide_04 .container .content .contentbox .fl {
+  float: left;
+  width: 48%;
+}
+section#divide_04 .container .content .contentbox .fr {
+  float: right;
+  width: 48%;
+}
+section#divide_04 .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#divide_04 .container .content .contentbox h4 {
+  height: 180px;
+  padding-top: 16px;
+  background: url(../image/sk/bg_csr_04.gif) right 0 no-repeat;
+}
+section#divide_04 .container .content .contentbox h5 {
+  font-family: malgun;
+  color: #333;
+  letter-spacing: -1px;
+  font-size: 18px;
+  height: 28px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+section#divide_04 .container .content .contentbox .csr_txt {
+  padding-top: 30px;
+  overflow: hidden;
+  background: url(../image/sk/bg_boxline_left.gif) left bottom no-repeat;
+}
+section#divide_04 .container .content .contentbox .cwrap {
+  padding-bottom: 25px;
+  line-height: 20px;
+  overflow: hidden;
+  background: url(../image/sk/dot_rightred.gif) right bottom no-repeat;
+}
+section#divide_04 .container .content .contentbox .skprobono {
+  padding-top: 30px;
+  overflow: hidden;
+}
+section#divide_04 .container .content .contentbox .skprobono .probonowrap {
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 30px;
+}
+section#divide_04 .container .content .contentbox .skprobono .probonowrap dl {
+  float: left;
+  width: 50%;
+  padding: 20px 0 30px 0;
+}
+section#divide_04 .container .content .contentbox .skprobono .probonowrap dl dt {
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+section#divide_04 .container .content .contentbox .skprobono .probonowrap dl dd {
+  padding: 7px 10px 0 0;
+  line-height: 20px;
+  text-align: left;
+}
+section#divide_04 .container .content .contentbox .skprobono p {
+  line-height: 20px;
+}
+section#divide_05 {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#divide_05 .linkarea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 173px;
+  height: 100%;
+}
+section#divide_05 .linkarea .linkwrap {
+  padding-top: 30px;
+}
+section#divide_05 .linkarea .linkwrap .link_box {
+  width: 125px;
+}
+section#divide_05 .linkarea .linkwrap .link_box h3 {
+  font-family: arial;
+  font-size: 14px;
+  padding: 50px 0 20px;
+  color: #000;
+}
+section#divide_05 .linkarea .linkwrap .link_box ul {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_05 .linkarea .linkwrap .link_box ul a {
+  display: block;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+section#divide_05 .linkarea .linkwrap .link_box ul a:hover {
+  color: #ea002d;
+}
+section#divide_05 .linkarea .linkwrap .link_box2 {
+  padding: 30px 0;
+  margin-left: -24px;
+}
+section#divide_05 .linkarea .linkwrap .link_box2 ul {
+  border-top: 1px #f4f4f4 solid;
+}
+section#divide_05 .linkarea .linkwrap .link_box2 ul li {
+  padding: 10px 0 10px 24px;
+  border-bottom: 1px #f4f4f4 solid;
+  display: block;
+  width: 145px;
+}
+section#divide_05 .linkarea .linkwrap .link_box2 ul li a {
+  padding-right: 14px;
+  background: url("../image/sk/icon_arr_01.gif") right 0 no-repeat;
+}
+section#divide_05 .linkarea .linkwrap .adobe {
+  display: block;
+  padding-top: 15px;
+}
+section#divide_05 .linkarea .linkwrap .top_button {
+  display: block;
+  position: absolute;
+  bottom: 65px;
+  left: 43px;
+}
+section#divide_05 .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#divide_05 .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#divide_05 .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url("../image/sk/leftimg_01.jpg") no-repeat;
+}
+section#divide_05 .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#divide_05 .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#divide_05 .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#divide_05 .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url("../image/sk/bg_hiddenmap.jpg") right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#divide_05 .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#divide_05 .container .hidemap .sitemap {
+  height: 333px;
+  background: url("../image/sk/bg_sitemap.gif") 120px bottom no-repeat;
+}
+section#divide_05 .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#divide_05 .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#divide_05 .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#divide_05 .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#divide_05 .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px;
+}
+section#divide_05 .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#divide_05 .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_05 .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#divide_05 .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#divide_05 .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#divide_05 .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#divide_05 .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#divide_05 .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#divide_05 .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#divide_05 .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#divide_05 .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_05 .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#divide_05 .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#divide_05 .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+section#divide_05 .container .content .contents {
+  position: relative;
+  width: 100%;
+}
+section#divide_05 .container .content .contents .red {
+  color: #ea002c;
+}
+section#divide_05 .container .content .contents .orange {
+  color: #ffab6b;
+  font-size: 11px;
+}
+section#divide_05 .container .content .contents .arr_next {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#divide_05 .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#divide_05 .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+}
+section#divide_05 .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_05 .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#divide_05 .container .content .contentbox {
+  min-height: 600px;
+}
+section#divide_05 .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#divide_05 .container .content .contentbox h4 {
+  padding-top: 16px;
+  padding-bottom: 140px;
+  background: url(../image/sk/bg_csr_05.gif) right 50px no-repeat;
+}
+section#divide_05 .container .content .contentbox .h4_txt {
+  position: absolute;
+  margin-top: -120px;
+  font-size: 11px;
+  line-height: 20px;
+}
+section#divide_05 .container .content .contentbox .h4_txt span {
+  display: block;
+}
