@@ -6874,7 +6874,7 @@ section#divide_05 .container .content .contentbox h3 {
 section#divide_05 .container .content .contentbox h4 {
   padding-top: 16px;
   padding-bottom: 140px;
-  background: url(../image/sk/bg_csr_05.gif) right 50px no-repeat;
+  background: url(../image/sk/bg_csr_05.gif) right 49px no-repeat;
 }
 section#divide_05 .container .content .contentbox .h4_txt {
   position: absolute;
@@ -6884,4 +6884,1093 @@ section#divide_05 .container .content .contentbox .h4_txt {
 }
 section#divide_05 .container .content .contentbox .h4_txt span {
   display: block;
+}
+section#divide_05 .container .content .contentbox .skbox {
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+section#divide_05 .container .content .contentbox .skbox dl {
+  float: left;
+  position: relative;
+  width: 209px;
+  height: 300px;
+  margin-right: 9px;
+  overflow: hidden;
+}
+section#divide_05 .container .content .contentbox .skbox dl dd {
+  line-height: 18px;
+  font-size: 11px;
+  padding: 2px 0 0 14px;
+}
+section#divide_05 .container .content .contentbox .skbox dl dd label {
+  display: block;
+  padding: 2px 0 1px 0;
+  color: #ed0000;
+}
+section#divide_06 {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#divide_06 .linkarea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 173px;
+  height: 100%;
+}
+section#divide_06 .linkarea .linkwrap {
+  padding-top: 30px;
+}
+section#divide_06 .linkarea .linkwrap .link_box {
+  width: 125px;
+}
+section#divide_06 .linkarea .linkwrap .link_box h3 {
+  font-family: arial;
+  font-size: 14px;
+  padding: 50px 0 20px;
+  color: #000;
+}
+section#divide_06 .linkarea .linkwrap .link_box ul {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_06 .linkarea .linkwrap .link_box ul a {
+  display: block;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+section#divide_06 .linkarea .linkwrap .link_box ul a:hover {
+  color: #ea002d;
+}
+section#divide_06 .linkarea .linkwrap .link_box2 {
+  padding: 30px 0;
+  margin-left: -24px;
+}
+section#divide_06 .linkarea .linkwrap .link_box2 ul {
+  border-top: 1px #f4f4f4 solid;
+}
+section#divide_06 .linkarea .linkwrap .link_box2 ul li {
+  padding: 10px 0 10px 24px;
+  border-bottom: 1px #f4f4f4 solid;
+  display: block;
+  width: 145px;
+}
+section#divide_06 .linkarea .linkwrap .link_box2 ul li a {
+  padding-right: 14px;
+  background: url("../image/sk/icon_arr_01.gif") right 0 no-repeat;
+}
+section#divide_06 .linkarea .linkwrap .adobe {
+  display: block;
+  padding-top: 15px;
+}
+section#divide_06 .linkarea .linkwrap .top_button {
+  display: block;
+  position: absolute;
+  bottom: 65px;
+  left: 43px;
+}
+section#divide_06 .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#divide_06 .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#divide_06 .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url("../image/sk/leftimg_01.jpg") no-repeat;
+}
+section#divide_06 .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#divide_06 .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#divide_06 .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#divide_06 .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url("../image/sk/bg_hiddenmap.jpg") right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#divide_06 .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#divide_06 .container .hidemap .sitemap {
+  height: 333px;
+  background: url("../image/sk/bg_sitemap.gif") 120px bottom no-repeat;
+}
+section#divide_06 .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#divide_06 .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#divide_06 .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#divide_06 .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#divide_06 .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px;
+}
+section#divide_06 .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#divide_06 .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_06 .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#divide_06 .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#divide_06 .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#divide_06 .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#divide_06 .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#divide_06 .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#divide_06 .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#divide_06 .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#divide_06 .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_06 .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#divide_06 .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#divide_06 .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+section#divide_06 .container .content .contents {
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px;
+}
+section#divide_06 .container .content .contents .red {
+  color: #ea002c;
+}
+section#divide_06 .container .content .contents .orange {
+  color: #ffab6b;
+  font-size: 11px;
+}
+section#divide_06 .container .content .contents .arr_next {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#divide_06 .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#divide_06 .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+}
+section#divide_06 .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_06 .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#divide_06 .container .content .contentbox {
+  min-height: 600px;
+}
+section#divide_06 .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#divide_06 .container .content .contentbox h4 {
+  height: 230px;
+  width: 100%;
+  padding-top: 16px;
+  background: url(../image/sk/bg_csr_06.gif) right 0 no-repeat;
+}
+section#divide_06 .container .content .contentbox .csr_txt {
+  background: url(../image/sk/bg_boxline_left.gif) left bottom no-repeat;
+}
+section#divide_06 .container .content .contentbox .csr_txt .cwrap {
+  padding-bottom: 30px;
+  line-height: 19px;
+  background: url(../image/sk/dot_rightred.gif) right bottom no-repeat;
+}
+section#divide_06 .container .content .contentbox .csrbox {
+  padding-top: 30px;
+  overflow: hidden;
+}
+section#divide_06 .container .content .contentbox .csrbox dl {
+  float: left;
+  width: 33.3%;
+}
+section#divide_06 .container .content .contentbox .csrbox dl dt {
+  width: 90%;
+  height: 75px;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -1px;
+  line-height: 21px;
+  font-family: malgun;
+}
+section#divide_06 .container .content .contentbox .csrbox dl dt span {
+  display: block;
+}
+section#divide_06 .container .content .contentbox .csrbox dl .pic {
+  width: 90%;
+  height: 250px;
+  text-align: center;
+}
+section#divide_06 .container .content .contentbox .csrbox dl .txt {
+  width: 90%;
+  line-height: 20px;
+}
+section#divide_07 {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#divide_07 .linkarea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 173px;
+  height: 100%;
+}
+section#divide_07 .linkarea .linkwrap {
+  padding-top: 30px;
+}
+section#divide_07 .linkarea .linkwrap .link_box {
+  width: 125px;
+}
+section#divide_07 .linkarea .linkwrap .link_box h3 {
+  font-family: arial;
+  font-size: 14px;
+  padding: 50px 0 20px;
+  color: #000;
+}
+section#divide_07 .linkarea .linkwrap .link_box ul {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_07 .linkarea .linkwrap .link_box ul a {
+  display: block;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+section#divide_07 .linkarea .linkwrap .link_box ul a:hover {
+  color: #ea002d;
+}
+section#divide_07 .linkarea .linkwrap .link_box2 {
+  padding: 30px 0;
+  margin-left: -24px;
+}
+section#divide_07 .linkarea .linkwrap .link_box2 ul {
+  border-top: 1px #f4f4f4 solid;
+}
+section#divide_07 .linkarea .linkwrap .link_box2 ul li {
+  padding: 10px 0 10px 24px;
+  border-bottom: 1px #f4f4f4 solid;
+  display: block;
+  width: 145px;
+}
+section#divide_07 .linkarea .linkwrap .link_box2 ul li a {
+  padding-right: 14px;
+  background: url("../image/sk/icon_arr_01.gif") right 0 no-repeat;
+}
+section#divide_07 .linkarea .linkwrap .adobe {
+  display: block;
+  padding-top: 15px;
+}
+section#divide_07 .linkarea .linkwrap .top_button {
+  display: block;
+  position: absolute;
+  bottom: 65px;
+  left: 43px;
+}
+section#divide_07 .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#divide_07 .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#divide_07 .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url("../image/sk/leftimg_01.jpg") no-repeat;
+}
+section#divide_07 .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#divide_07 .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#divide_07 .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#divide_07 .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url("../image/sk/bg_hiddenmap.jpg") right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#divide_07 .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#divide_07 .container .hidemap .sitemap {
+  height: 333px;
+  background: url("../image/sk/bg_sitemap.gif") 120px bottom no-repeat;
+}
+section#divide_07 .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#divide_07 .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#divide_07 .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#divide_07 .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#divide_07 .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px;
+}
+section#divide_07 .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#divide_07 .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_07 .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#divide_07 .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#divide_07 .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#divide_07 .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#divide_07 .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#divide_07 .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#divide_07 .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#divide_07 .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#divide_07 .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#divide_07 .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#divide_07 .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#divide_07 .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+section#divide_07 .container .content .contents {
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px;
+}
+section#divide_07 .container .content .contents .red {
+  color: #ea002c;
+}
+section#divide_07 .container .content .contents .orange {
+  color: #ffab6b;
+  font-size: 11px;
+}
+section#divide_07 .container .content .contents .arr_next {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#divide_07 .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#divide_07 .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+}
+section#divide_07 .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#divide_07 .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#divide_07 .container .content .contentbox {
+  min-height: 600px;
+}
+section#divide_07 .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#divide_07 .container .content .contentbox h4 {
+  height: 230px;
+  width: 100%;
+  padding-top: 16px;
+  background: url(../image/sk/bg_csr_07.gif) right 0 no-repeat;
+}
+section#divide_07 .container .content .contentbox .csr_txt {
+  background: url(../image/sk/bg_boxline_left.gif) left bottom no-repeat;
+}
+section#divide_07 .container .content .contentbox .csr_txt .cwrap {
+  padding-bottom: 30px;
+  line-height: 19px;
+  background: url(../image/sk/dot_rightred.gif) right bottom no-repeat;
+}
+section#divide_07 .container .content .contentbox .csrbox {
+  padding-top: 30px;
+  overflow: hidden;
+}
+section#divide_07 .container .content .contentbox .csrbox dl {
+  float: left;
+  width: 33.3%;
+}
+section#divide_07 .container .content .contentbox .csrbox dl dt {
+  width: 90%;
+  height: 75px;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -1px;
+  line-height: 21px;
+  font-family: malgun;
+}
+section#divide_07 .container .content .contentbox .csrbox dl dt span {
+  display: block;
+}
+section#divide_07 .container .content .contentbox .csrbox dl .pic {
+  width: 90%;
+  height: 250px;
+  text-align: center;
+}
+section#divide_07 .container .content .contentbox .csrbox dl .txt {
+  width: 90%;
+  line-height: 20px;
+}
+section#search {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#search .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#search .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#search .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url("../image/sk/leftimg_01.jpg") no-repeat;
+}
+section#search .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#search .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#search .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#search .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url("../image/sk/bg_hiddenmap.jpg") right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#search .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#search .container .hidemap .sitemap {
+  height: 333px;
+  background: url("../image/sk/bg_sitemap.gif") 120px bottom no-repeat;
+}
+section#search .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#search .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#search .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#search .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#search .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px;
+}
+section#search .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#search .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#search .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#search .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#search .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#search .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#search .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#search .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#search .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#search .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#search .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#search .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#search .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#search .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+section#search .container .content .contents {
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px;
+}
+section#search .container .content .contents .red {
+  color: #ea002c;
+}
+section#search .container .content .contents .orange {
+  color: #ffab6b;
+  font-size: 11px;
+}
+section#search .container .content .contents .arr_next {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#search .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#search .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+}
+section#search .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#search .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#search .container .content .contentbox {
+  min-height: 600px;
+}
+section#search .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#search .container .content .contentbox h4 {
+  color: #666;
+  padding: 20px 0 10px 0;
+  background: url(../image/sk/bg_titbox_search.gif) right 0 no-repeat;
+}
+section#search .container .content .contentbox h4 p {
+  width: 75%;
+  margin-top: 50px;
+  font-weight: normal;
+  font-size: 11px;
+}
+section#search .container .content .contentbox h4 p span {
+  color: #000;
+}
+section#search .container .content .contentbox table {
+  width: 100%;
+  margin-top: 30px;
+  border-top: 1px #ea002c solid;
+}
+section#search .container .content .contentbox table thead th {
+  padding: 10px 0 8px 0;
+  font-size: 11px;
+  text-align: center;
+  background-color: #fbfbfb;
+  border-bottom: 1px #f5f5f5 solid;
+}
+section#search .container .content .contentbox table tbody td {
+  padding-top: 7px;
+  padding-bottom: 5px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 11px;
+  border-right: 1px #f5f5f5 solid;
+  border-bottom: 1px #f5f5f5 solid;
+}
+section#search .container .content .contentbox table td.aff {
+  text-align: left;
+  padding: 7px 0 5px 8px;
+  font-size: 11px;
+  font-family: tahoma;
+  line-height: 19px;
+  font-weight: normal;
+  color: #000;
+}
+section#search .container .content .contentbox table td.title {
+  padding-left: 20px;
+  padding-right: 10px;
+  text-align: left;
+  color: #333;
+  font-size: 11px;
+}
+section#search .container .content .contentbox table td.title a {
+  font-size: 11px;
+  color: #000;
+}
+section#search .container .content .contentbox table td.title a:hover {
+  color: #ea002c;
+}
+section#search .container .content .contentbox table td.date {
+  font-family: tahoma;
+  border-right: none;
+}
+section#search .container .content .contentbox .page ul {
+  float: left;
+  margin-top: 25px;
+  padding: 0 10px;
+  border: 1px #ededed solid;
+}
+section#search .container .content .contentbox .page ul li:first-child {
+  color: #ea002c;
+  background: url(../image/sk/bg_bar_01.gif) right center no-repeat;
+}
+section#search .container .content .contentbox .page ul li:first-child label {
+  color: #888;
+}
+section#search .container .content .contentbox .page ul li {
+  float: left;
+  height: 23px;
+  padding: 0 8px;
+  color: #333;
+  font-size: 10px;
+  font-family: tahoma, sans-serif;
+  line-height: 23px;
+}
+section#search .container .content .contentbox .page ul li label {
+  color: #000;
+}
+section#search .container .content .contentbox .paging {
+  float: right;
+  margin-top: 25px;
+  text-align: center;
+}
+section#search .container .content .contentbox .paging span a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 23px;
+  height: 23px;
+  font-size: 10px;
+  font-family: tahoma, sans-serif;
+  color: #888;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ededed;
+  line-height: 23px;
+}
+section#search .container .content .contentbox .paging span a:hover {
+  background-color: #ea002c;
+  color: #fff;
+}
+section#search .container .content .contentbox .paging span a.selected {
+  color: #fff;
+  background-color: #ea002c;
+}
+section#search .container .content .contentbox .paging input {
+  vertical-align: middle;
+}
+section#email {
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top: -8px;
+  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+}
+section#email .linkarea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 173px;
+  height: 100%;
+}
+section#email .linkarea .linkwrap {
+  padding-top: 30px;
+}
+section#email .linkarea .linkwrap .adobe {
+  display: block;
+  padding-top: 15px;
+}
+section#email .linkarea .linkwrap .top_button {
+  display: block;
+  position: absolute;
+  bottom: 65px;
+  left: 43px;
+}
+section#email .container {
+  position: relative;
+  padding: 0 259px 0 327px;
+  overflow: hidden;
+}
+section#email .container .sitemaparea {
+  position: relative;
+  float: left;
+  width: 239px;
+  padding: 0 0 0 28px;
+  margin: 0 0 0 -327px;
+}
+section#email .container .sitemaparea .menu_img {
+  width: 238px;
+  height: 239px;
+  background: url("../image/sk/leftimg_01.jpg") no-repeat;
+}
+section#email .container .sitemaparea ul {
+  float: left;
+  padding: 21px 0 0 22px;
+}
+section#email .container .sitemaparea ul li {
+  margin-bottom: 2px;
+  font-size: 1px;
+  line-height: 0;
+}
+section#email .container .map_open {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  height: 24px;
+  padding-top: 14px;
+  z-index: 1000;
+}
+section#email .container .hidemap {
+  width: 721px;
+  height: 100%;
+  padding: 31px 0 0 34px;
+  background: url("../image/sk/bg_hiddenmap.jpg") right top no-repeat;
+  position: absolute;
+  top: 0;
+  left: -755px;
+  z-index: 1001;
+}
+section#email .container .hidemap .map_close {
+  position: absolute;
+  right: 7px;
+  top: 14px;
+}
+section#email .container .hidemap .sitemap {
+  height: 333px;
+  background: url("../image/sk/bg_sitemap.gif") 120px bottom no-repeat;
+}
+section#email .container .hidemap .sitemap h2 {
+  padding: 0 0 25px 10px;
+}
+section#email .container .hidemap .sitemap h2 img {
+  display: block;
+}
+section#email .container .hidemap .sitemap h3 {
+  width: 126px;
+  float: left;
+  padding-left: 10px;
+}
+section#email .container .hidemap .sitemap h3 img {
+  display: block;
+}
+section#email .container .hidemap .sitemap h3 span {
+  display: block;
+  margin: 22px 0 15px;
+}
+section#email .container .hidemap .sitemap ul {
+  width: 126px;
+  padding-left: 10px;
+  float: left;
+}
+section#email .container .hidemap .sitemap ul li {
+  font-size: 11px;
+  line-height: 18px;
+}
+section#email .container .hidemap .sitemap ul li a {
+  color: #666;
+}
+section#email .container .hidemap .sitemap ul li a:hover {
+  color: #ea002c;
+}
+section#email .container .hidemap .skcompany {
+  height: 332px;
+  padding-top: 30px;
+}
+section#email .container .hidemap .skcompany h2 {
+  padding: 0 0 33px 10px;
+}
+section#email .container .hidemap .skcompany h2 img {
+  display: block;
+}
+section#email .container .hidemap .skcompany h3 {
+  height: 30px;
+  padding-left: 10px;
+}
+section#email .container .hidemap .skcompany h3 img {
+  display: block;
+}
+section#email .container .hidemap .skcompany ul {
+  padding: 0 0 33px 10px;
+  overflow: hidden;
+}
+section#email .container .hidemap .skcompany ul li {
+  float: left;
+  width: 139px;
+  font-size: 11px;
+  line-height: 18px;
+}
+section#email .container .hidemap .skcompany ul li a {
+  color: #666;
+}
+section#email .container .hidemap .skcompany ul li a:hover {
+  color: #ea002c;
+}
+section#email .container .content {
+  float: left;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+section#email .container .content .contents {
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px;
+}
+section#email .container .content .contents .red {
+  color: #ea002c;
+}
+section#email .container .content .contents .orange {
+  color: #ffab6b;
+  font-size: 11px;
+}
+section#email .container .content .contents .arr_next {
+  position: absolute;
+  right: -60px;
+  top: -49px;
+}
+section#email .container .content .contents .navi {
+  height: 18px;
+  margin-left: -9px;
+}
+section#email .container .content .contents .navi li {
+  font-size: 11px;
+  color: #595959;
+  float: left;
+  padding: 0 10px 0 9px;
+  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+}
+section#email .container .content .contents .navi li a {
+  font-size: 11px;
+  color: #595959;
+}
+section#email .container .content .contents .navi .choice {
+  background: none;
+  color: #000;
+}
+section#email .container .content .contentbox {
+  min-height: 800px;
+}
+section#email .container .content .contentbox h3 {
+  height: 63px;
+  background: url(../image/sk/bg_stitbox.gif) right top repeat-x;
+}
+section#email .container .content .contentbox h4 {
+  height: 150px;
+  padding-top: 20px;
+  background: url(../image/sk/bg_email.gif) right 0 no-repeat;
+}
+section#email .container .content .contentbox h5 {
+  font-size: 11px;
+  font-weight: normal;
+  color: #000;
+  background: url(../image/sk/bg_boxline.gif) left bottom;
+  background-repeat: no-repeat;
+}
+section#email .container .content .contentbox h5 p {
+  background: url(../image/sk/graydot.gif) right bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 8px;
+}
+section#email .container .content .contentbox .emailbox {
+  padding-top: 25px;
+  background: url(../image/sk/bg_boxline.gif) left bottom;
+  background-repeat: no-repeat;
+}
+section#email .container .content .contentbox .emailbox p {
+  text-align: center;
+  line-height: 20px;
+  overflow: hidden;
+  padding-bottom: 22px;
 }
