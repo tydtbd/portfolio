@@ -705,7 +705,9 @@ section#about {
   clear: both;
   width: 100%;
   margin-top: -8px;
-  background: url(../image/sk/bg_linkbox_nospace.gif) right top repeat-y;
+  background: url("../image/sk/bg_linkbox_nospace.gif");
+  background-position: right bottom;
+  background-repeat: repeat-y;
 }
 section#about .linkarea {
   position: absolute;
@@ -773,7 +775,8 @@ section#about .container .sitemaparea {
 section#about .container .sitemaparea .menu_img {
   width: 238px;
   height: 239px;
-  background: url("../image/sk/leftimg_01.jpg") no-repeat;
+  background: url("../image/sk/leftimg_01.jpg");
+  background-repeat: no-repeat;
 }
 section#about .container .sitemaparea ul {
   float: left;
@@ -797,7 +800,9 @@ section#about .container .hidemap {
   width: 721px;
   height: 100%;
   padding: 31px 0 0 34px;
-  background: url("../image/sk/bg_hiddenmap.jpg") right top no-repeat;
+  background: url("../image/sk/bg_hiddenmap.jpg");
+  background-position: right top;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   left: -755px;
@@ -810,7 +815,9 @@ section#about .container .hidemap .map_close {
 }
 section#about .container .hidemap .sitemap {
   height: 333px;
-  background: url("../image/sk/bg_sitemap.gif") 120px bottom no-repeat;
+  background: url("../image/sk/bg_sitemap.gif");
+  background-repeat: no-repeat;
+  background-position: 120px bottom;
 }
 section#about .container .hidemap .sitemap h2 {
   padding: 0 0 25px 10px;
@@ -901,7 +908,9 @@ section#about .container .content .contents .navi li {
   color: #595959;
   float: left;
   padding: 0 10px 0 9px;
-  background: url("../image/sk/bg_bar_navi.gif") right 1px no-repeat;
+  background: url("../image/sk/bg_bar_navi.gif");
+  background-repeat: no-repeat;
+  background-position: right 1px;
 }
 section#about .container .content .contents .navi li a {
   font-size: 11px;
@@ -913,7 +922,9 @@ section#about .container .content .contents .navi .choice {
 }
 section#about .container .content .contentbox {
   padding-bottom: 30px;
-  background: url("../image/sk/bg_overview.gif") right top 63px no-repeat;
+  background: url("../image/sk/bg_overview.gif");
+  background-repeat: no-repeat;
+  background-position: right top 63px;
 }
 section#about .container .content .contentbox h3 {
   height: 63px;
