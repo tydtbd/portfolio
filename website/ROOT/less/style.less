@@ -2,7 +2,8 @@
 ul,li{list-style: none;}
 img{border: 0;}
 body{
-  background: url(../image/sk/bg_leftmenu_gr.gif) 0 0 repeat-y;
+  background: url("../image/sk/bg_leftmenu_gr.gif");
+  background-repeat: repeat-y;
   height: 100%;
   font-size: 12px;
   font-family: Dotum, "돋움";
@@ -16,7 +17,9 @@ body a{
 
 header{
   height: 103px;
-  background:url(../image/sk/bg_topgr.png)  left bottom repeat-x;
+  background:url("../image/sk/bg_topgr.png");
+  background-position:  left bottom;
+  background-repeat: repeat-x;
   position: relative;
   z-index: 999;
   h1{
@@ -31,7 +34,9 @@ header{
        li{
          float: left;
          padding: 0 8px 0 7px;
-         background: url(../image/sk/bg_bar_gnb.gif) right 3px no-repeat;
+         background: url("../image/sk/bg_bar_gnb.gif");
+         background-position: right 3px;
+         background-repeat: no-repeat;
          img{display: block;}
        }
        li:last-child{
@@ -45,7 +50,9 @@ header{
        left: 292px;
        li{float: left;
           padding: 2px 35px 0 35px;
-          background: url(../image/sk/bg_bar_tmenu.gif)  right top no-repeat;
+          background: url("../image/sk/bg_bar_tmenu.gif");
+          background-position:  right top;
+          background-repeat: no-repeat;
        }
        li:last-child{
          padding-right: 0;
@@ -65,7 +72,8 @@ header{
        height: 29px;
        top: 54px;
        right: 57px;
-       background: url(../image/sk/bg_searchbox.gif) 0 0 no-repeat;
+       background: url("../image/sk/bg_searchbox.gif");
+       background-repeat: no-repeat;
        legend{
          position: absolute;
          top: -9999px;
@@ -92,7 +100,9 @@ section{
     clear: both;
     width: 100%;
     margin-top: -8px;
-    background: url(../image/sk/bg_linkbox_nospace.gif)right top repeat-y;
+    background: url("../image/sk/bg_linkbox_nospace.gif");
+    background-position: right top;
+    background-repeat: repeat-y;
     .container{
       position: relative;
       padding: 0 259px 0 327px;
@@ -117,7 +127,9 @@ section{
         width: 721px;
         height: 100%;
         padding: 31px 0 0 34px;
-        background: url(../image/sk/bg_hiddenmap.jpg) right top no-repeat;
+        background: url("../image/sk/bg_hiddenmap.jpg");
+        background-position: right top;
+        background-repeat: no-repeat;
         position: absolute;
         top: 0;
         left:-755px;
@@ -129,7 +141,9 @@ section{
         }
          .sitemap{
            height: 333px;
-           background: url(../image/sk/bg_sitemap.gif) 120px bottom no-repeat;
+           background: url("../image/sk/bg_sitemap.gif");
+           background-position: 120px bottom;
+           background-repeat: no-repeat;
            h2{ padding: 0 0 25px 10px;
              img{display: block;}
            }
@@ -185,14 +199,17 @@ section{
                 width: 100%;
                 padding: 50px 0 40px 0;
                 .contents{
-                  .company{
+                  .company_01{
                     float: left;
                     position: relative;
                     border-right: 1px #eaeaea solid;
                     border-bottom: 1px #eaeaea solid;
-                    background: url(../image/sk/bg_skbox_bot.gif)left bottom repeat-x;
+                    background: url("../image/sk/bg_skbox_bot.gif");
+                    background-position: left bottom;
+                    background-repeat: repeat-x;
                     width: 954px;
                     height: 362px;
+                    display: none;
                     .slide{
                       width: 717px;
                       height: 362px;
@@ -214,8 +231,8 @@ section{
                         position: absolute;
                         bottom: 15px;
                         right: 47px;
-                        background: url(../image/sk/btn_stop.gif);
-                        &:hover{ background: url(../image/sk/btn_stop_over.gif);}
+                        background: url("../image/sk/btn_stop.gif");
+                        &:hover{ background: url("../image/sk/btn_stop_over.gif");}
                       }
                       .play{
                         width: 30px;
@@ -224,8 +241,8 @@ section{
                         position: absolute;
                         bottom: 15px;
                         right: 15px;
-                        background: url(../image/sk/btn_play.gif);
-                        &:hover{ background: url(../image/sk/btn_play_over.gif);}
+                        background: url("../image/sk/btn_play.gif");
+                        &:hover{ background: url("../image/sk/btn_play_over.gif");}
                       }
                       .left{
                         position: absolute;
@@ -247,7 +264,9 @@ section{
                         width: 213px;
                         height: 332px;
                         padding: 29px 0 0 23px;
-                        background: url(../image/sk/txt_oksk.gif)left 23px bottom 16px no-repeat;
+                        background: url("../image/sk/txt_oksk.gif");
+                        background-position: left 23px bottom 16px;
+                        background-repeat: no-repeat;
                         .skbtn{
                           position: absolute;
                           top: 0;
@@ -281,12 +300,103 @@ section{
                       }
                     }
                   }
+                  .company_02{
+                    float: left;
+                    position: relative;
+                    border-right: 1px #eaeaea solid;
+                    border-bottom: 1px #eaeaea solid;
+                    background: url("../image/sk/bg_skbox_bot.gif");
+                    background-position: left bottom;
+                    background-repeat: repeat-x;
+                    width: 954px;
+                    height: 362px;
+                    .slide{
+                      width: 717px;
+                      height: 362px;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      border-right: 1px #eaeaea solid;
+                      ul{
+                        li{
+
+                        }
+                        li:nth-child(2){display: none;}
+                        li:nth-child(3){display: none;}
+                      }
+                      .left{
+                        position: absolute;
+                        top: 170px;
+                        left: 25px;
+                      }
+                      .right{
+                        position: absolute;
+                        top: 170px;
+                        left: 665px;
+                      }
+                    }
+                    .slide_right{
+                      width: 235px;
+                      height: 362px;
+                      position: relative;
+                      float: right;
+                      .rightarea{
+                        width: 213px;
+                        height: 332px;
+                        padding: 29px 0 0 23px;
+                        background-position: left 23px bottom 16px;
+                        background-repeat: no-repeat;
+                        .skbtn{
+                          position: absolute;
+                          top: 0;
+                          right: 0;
+                        }
+                        h2{
+                          height: 24px;
+                          padding-left: 6px;
+                          img{display: block;}
+                        }
+                        .prev{
+                          position: absolute;
+                          top: 55px;
+                          left: 40px;
+                        }
+                        .next{
+                          position: absolute;
+                          bottom: 10px;
+                          left: 40px;
+                        }
+                        .cwrap{
+                          width: 180px;
+                          height: 250px;
+                          margin-top: 25px;
+                          padding-left: 6px;
+                          overflow: hidden;
+                          #companylist{
+                            position: relative;
+                            top: -357px;
+                            height: 1071px;
+                            li{
+                              width: 180px;
+                              height: 15px;
+                              padding: 1px 0;
+                              overflow: hidden;
+                              a{
+                                display: block;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                   .investor{
                     float: left;
                     width: 214px;
                     height: 333px;
                     padding: 29px 0 0 26px;
-                    background: url(../image/sk/bg_grd_01.gif) 0 0 repeat-y;
+                    background: url("../image/sk/bg_grd_01.gif");
+                    background-repeat: repeat-y;
                     border-right: 1px #eaeaea solid;
                     border-bottom: 1px #eaeaea solid;
                     h2{
@@ -302,7 +412,9 @@ section{
                         color: #6e6e6e;
                         display: block;
                         width: 190px;
-                        background: url(../image/sk/arr_next.gif) right no-repeat;
+                        background: url("../image/sk/arr_next.gif");
+                        background-position: right;
+                        background-repeat: no-repeat;
                        }
                       }
                     }
@@ -314,7 +426,9 @@ section{
                     border-bottom: 1px #eaeaea solid;
                     float: left;
                     padding: 30px 0 0 19px;
-                    background: url(../image/sk/bg_grd_03.gif) right bottom repeat-x;
+                    background: url("../image/sk/bg_grd_03.gif");
+                    background-position: right bottom;
+                    background-repeat: repeat-x;
                     h2{height: 31px;}
                   }
                   .sk_global{
@@ -322,7 +436,9 @@ section{
                     height: 209px;
                     float: left;
                     padding: 30px 19px 0 19px;
-                    background: url(../image/sk/bg_globalsk_tmp.jpg) center bottom no-repeat;
+                    background: url("../image/sk/bg_globalsk_tmp.jpg");
+                    background-position: center bottom;
+                    background-repeat: no-repeat;
                     background-color: #f3f3f3;
                     border-right: 1px #eaeaea solid;
                     border-bottom: 1px #eaeaea solid;
@@ -337,7 +453,139 @@ section{
                     height: 239px;
                     border-right:1px #eaeaea solid;
                     border-bottom: 1px #eaeaea solid;
-                    .wrap{
+                    .wrap_01{
+                      width: 698px;
+                      height: 239px;
+                      overflow: hidden;
+                      position: absolute;
+                      top: 0;
+                      left: 19px;
+                      display: none;
+                      h2{
+                        position: absolute;
+                        top: 30px;
+                        left: 0;
+                      }
+                      .arr_prev{
+                        position: absolute;
+                        top: 30px;
+                        left: 174px;
+                        img{ vertical-align: middle;}
+                      }
+                      .arr_next{
+                        position: absolute;
+                        top: 30px;
+                        left: 194px;
+                        img{ vertical-align: middle;}
+                      }
+                      dt{
+                        position: absolute;
+                        top: 58px;
+                        float: left;
+                        .text{
+                          width: 200px;
+                          font-family: malgun;
+                          font-size: 16px;
+                          font-weight: bold;
+                          padding-bottom: 20px;
+                          color: #333;
+                          line-height: 20px;
+                        }
+                        .text2{
+                          width: 200px;
+                        }
+                      }
+                      dd{float: right;}
+                    }
+                    .wrap_02{
+                      width: 698px;
+                      height: 239px;
+                      overflow: hidden;
+                      position: absolute;
+                      top: 0;
+                      left: 19px;
+                      display: none;
+                      h2{
+                        position: absolute;
+                        top: 30px;
+                        left: 0;
+                      }
+                      .arr_prev{
+                        position: absolute;
+                        top: 30px;
+                        left: 174px;
+                        img{ vertical-align: middle;}
+                      }
+                      .arr_next{
+                        position: absolute;
+                        top: 30px;
+                        left: 194px;
+                        img{ vertical-align: middle;}
+                      }
+                      dt{
+                        position: absolute;
+                        top: 58px;
+                        float: left;
+                        .text{
+                          width: 200px;
+                          font-family: malgun;
+                          font-size: 16px;
+                          font-weight: bold;
+                          padding-bottom: 20px;
+                          color: #333;
+                          line-height: 20px;
+                        }
+                        .text2{
+                          width: 200px;
+                        }
+                      }
+                      dd{float: right;}
+                    }
+                    .wrap_03{
+                      width: 698px;
+                      height: 239px;
+                      overflow: hidden;
+                      position: absolute;
+                      top: 0;
+                      left: 19px;
+                      display: none;
+                      h2{
+                        position: absolute;
+                        top: 30px;
+                        left: 0;
+                      }
+                      .arr_prev{
+                        position: absolute;
+                        top: 30px;
+                        left: 174px;
+                        img{ vertical-align: middle;}
+                      }
+                      .arr_next{
+                        position: absolute;
+                        top: 30px;
+                        left: 194px;
+                        img{ vertical-align: middle;}
+                      }
+                      dt{
+                        position: absolute;
+                        top: 58px;
+                        float: left;
+                        .text{
+                          width: 200px;
+                          font-family: malgun;
+                          font-size: 16px;
+                          font-weight: bold;
+                          padding-bottom: 20px;
+                          color: #333;
+                          line-height: 20px;
+                        }
+                        .text2{
+                          width: 200px;
+                        }
+                      }
+                      dd{float: right;}
+                    }
+                    .wrap_04{
                       width: 698px;
                       height: 239px;
                       overflow: hidden;
@@ -389,7 +637,9 @@ section{
                     .social{
                       width: 100%;
                       height: 190px;
-                      background:url(../image/sk/social_bg.jpg) 39px bottom no-repeat;
+                      background:url("../image/sk/social_bg.jpg");
+                      background-position: 39px bottom;
+                      background-repeat: no-repeat;
                       background-color: #f3f3f3;
                       overflow: hidden;
                       dt{
@@ -519,7 +769,9 @@ section{
                     padding: 30px 0 0 19px;
                     float: left;
                     border-right: 1px #eaeaea solid;
-                    background: url(../image/sk/bg_sports.jpg) center 160px no-repeat;
+                    background: url("../image/sk/bg_sports.jpg");
+                    background-position: center 160px;
+                    background-repeat: no-repeat;
                     h2{height: 29px;}
                     h3{
                       width: 90%;
