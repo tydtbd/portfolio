@@ -95,6 +95,8 @@ header{
        }
      }
    }
+  .gnb_m{ display: none;}
+
 section{
     position: relative;
     clear: both;
@@ -218,8 +220,12 @@ section{
                       left: 0;
                       border-right: 1px #eaeaea solid;
                       ul{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
                         li{
-
+                        float: left;
+                        width: 717px;
                         }
                         li:nth-child(2){display: none;}
                         li:nth-child(3){display: none;}
@@ -317,22 +323,27 @@ section{
                       top: 0;
                       left: 0;
                       border-right: 1px #eaeaea solid;
-                      ul{
-                        li{
-
-                        }
-                        li:nth-child(2){display: none;}
-                        li:nth-child(3){display: none;}
-                      }
                       .left{
                         position: absolute;
                         top: 170px;
                         left: 25px;
+                        z-index: 10;
                       }
                       .right{
                         position: absolute;
                         top: 170px;
                         left: 665px;
+                        z-index: 10;
+                      }
+                      ul{
+                        width: 20000px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        li{
+                          width: 717px;
+                          float: left;
+                        }
                       }
                     }
                     .slide_right{
@@ -374,8 +385,10 @@ section{
                           overflow: hidden;
                           #companylist{
                             position: relative;
-                            top: -357px;
                             height: 1071px;
+                            top: -357px;
+                            img{ display: block;}
+                            .label{ margin: 5px 0;}
                             li{
                               width: 180px;
                               height: 15px;

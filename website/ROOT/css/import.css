@@ -110,6 +110,9 @@ header fieldset a {
   top: 5px;
   left: 150px;
 }
+.gnb_m {
+  display: none;
+}
 section {
   position: relative;
   clear: both;
@@ -254,6 +257,15 @@ section .container .content .contents .company_01 .slide {
   left: 0;
   border-right: 1px #eaeaea solid;
 }
+section .container .content .contents .company_01 .slide ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+section .container .content .contents .company_01 .slide ul li {
+  float: left;
+  width: 717px;
+}
 section .container .content .contents .company_01 .slide ul li:nth-child(2) {
   display: none;
 }
@@ -359,21 +371,27 @@ section .container .content .contents .company_02 .slide {
   left: 0;
   border-right: 1px #eaeaea solid;
 }
-section .container .content .contents .company_02 .slide ul li:nth-child(2) {
-  display: none;
-}
-section .container .content .contents .company_02 .slide ul li:nth-child(3) {
-  display: none;
-}
 section .container .content .contents .company_02 .slide .left {
   position: absolute;
   top: 170px;
   left: 25px;
+  z-index: 10;
 }
 section .container .content .contents .company_02 .slide .right {
   position: absolute;
   top: 170px;
   left: 665px;
+  z-index: 10;
+}
+section .container .content .contents .company_02 .slide ul {
+  width: 20000px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+section .container .content .contents .company_02 .slide ul li {
+  width: 717px;
+  float: left;
 }
 section .container .content .contents .company_02 .slide_right {
   width: 235px;
@@ -419,8 +437,14 @@ section .container .content .contents .company_02 .slide_right .rightarea .cwrap
 }
 section .container .content .contents .company_02 .slide_right .rightarea .cwrap #companylist {
   position: relative;
-  top: -357px;
   height: 1071px;
+  top: -357px;
+}
+section .container .content .contents .company_02 .slide_right .rightarea .cwrap #companylist img {
+  display: block;
+}
+section .container .content .contents .company_02 .slide_right .rightarea .cwrap #companylist .label {
+  margin: 5px 0;
 }
 section .container .content .contents .company_02 .slide_right .rightarea .cwrap #companylist li {
   width: 180px;
@@ -8787,4 +8811,974 @@ section#email .container .content .contentbox .emailbox p {
   line-height: 20px;
   overflow: hidden;
   padding-bottom: 22px;
+}
+@media screen and (max-width: 480px) {
+  body {
+    background: none;
+  }
+  body header {
+    height: 64px;
+    background: none;
+  }
+  body header h1 {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+  }
+  body header h1 a img {
+    width: 57px;
+    height: 44px;
+  }
+  body header .gnb {
+    position: absolute;
+    top: 12px;
+    right: 66px;
+    display: none;
+  }
+  body header .gnb li {
+    float: left;
+    padding: 0 8px 0 7px;
+    background: url("../image/sk/bg_bar_gnb.gif");
+    background-position: right 3px;
+    background-repeat: no-repeat;
+  }
+  body header .gnb li img {
+    display: block;
+  }
+  body header .gnb li:last-child {
+    padding-right: 0;
+    background: 0;
+  }
+  body header .gnb_m {
+    display: block;
+    position: absolute;
+    top: 21px;
+    right: 27px;
+  }
+  body header .gnb_m li {
+    padding-left: 10px;
+  }
+  body header .gnb_m li img {
+    width: 32px;
+    height: 32px;
+  }
+  body header .menu {
+    position: absolute;
+    top: 60px;
+    left: 292px;
+  }
+  body header .menu li {
+    float: left;
+    padding: 2px 35px 0 35px;
+    background: url("../image/sk/bg_bar_tmenu.gif");
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+  body header .menu li:last-child {
+    padding-right: 0;
+    background: 0;
+  }
+  body header .sns_list {
+    position: absolute;
+    display: none;
+    top: 58px;
+    right: 250px;
+  }
+  body header .sns_list li {
+    float: left;
+    padding: 0 2px;
+  }
+  body header fieldset {
+    position: absolute;
+    border: 0;
+    width: 172px;
+    height: 29px;
+    top: 22px;
+    right: 70px;
+    background: url(../image/sk/bg_searchbox.gif);
+    background-repeat: no-repeat;
+  }
+  body header fieldset legend {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  body header fieldset input {
+    width: 137px;
+    height: 19px;
+    border: 0;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: none;
+  }
+  body header fieldset a {
+    position: absolute;
+    top: 5px;
+    left: 150px;
+  }
+  body section#main {
+    position: relative;
+    clear: both;
+    width: 100%;
+    margin: 0;
+    background: url("../image/sk/bg_linkbox_nospace.gif");
+    background-position: right top;
+    background-repeat: repeat-y;
+  }
+  body section#main .container {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    background: url("../image/sk/bg_navigr_m2.png");
+    background-repeat: repeat-x;
+  }
+  body section#main .container .sitemaparea {
+    position: relative;
+    float: left;
+    width: 239px;
+    padding: 0 0 0 28px;
+    margin: 0 0 0 -327px;
+    display: none;
+  }
+  body section#main .container .sitemaparea .map_open {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 7px;
+    height: 24px;
+    padding-top: 14px;
+    z-index: 1000;
+  }
+  body section#main .container .hidemap {
+    width: 721px;
+    height: 100%;
+    padding: 31px 0 0 34px;
+    background: url("../image/sk/bg_hiddenmap.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: -755px;
+    z-index: 1001;
+    display: none;
+  }
+  body section#main .container .hidemap .map_close {
+    position: absolute;
+    right: 7px;
+    top: 14px;
+  }
+  body section#main .container .hidemap .sitemap {
+    height: 333px;
+    background: url("../image/sk/bg_sitemap.gif");
+    background-position: 120px bottom;
+    background-repeat: no-repeat;
+  }
+  body section#main .container .hidemap .sitemap h2 {
+    padding: 0 0 25px 10px;
+  }
+  body section#main .container .hidemap .sitemap h2 img {
+    display: block;
+  }
+  body section#main .container .hidemap .sitemap h3 {
+    width: 126px;
+    float: left;
+    padding-left: 10px;
+  }
+  body section#main .container .hidemap .sitemap h3 img {
+    display: block;
+  }
+  body section#main .container .hidemap .sitemap h3 span {
+    display: block;
+    margin: 22px 0 15px 0;
+  }
+  body section#main .container .hidemap .sitemap ul {
+    width: 126px;
+    padding-left: 10px;
+    float: left;
+  }
+  body section#main .container .hidemap .sitemap ul li {
+    font-size: 11px;
+    line-height: 18px;
+  }
+  body section#main .container .hidemap .sitemap ul li a {
+    color: #666;
+  }
+  body section#main .container .hidemap .sitemap ul li a:hover {
+    color: #ea002c;
+  }
+  body section#main .container .hidemap .skcompany {
+    height: 332px;
+    padding-top: 30px;
+  }
+  body section#main .container .hidemap .skcompany h2 {
+    padding: 0 0 33px 10px;
+  }
+  body section#main .container .hidemap .skcompany h2 img {
+    display: block;
+  }
+  body section#main .container .hidemap .skcompany h3 {
+    height: 30px;
+    padding-left: 10px;
+  }
+  body section#main .container .hidemap .skcompany h3 img {
+    display: block;
+  }
+  body section#main .container .hidemap .skcompany ul {
+    padding: 0 0 33px 10px;
+    overflow: hidden;
+  }
+  body section#main .container .hidemap .skcompany ul li {
+    float: left;
+    width: 139px;
+    font-size: 11px;
+    line-height: 18px;
+  }
+  body section#main .container .hidemap .skcompany ul li a {
+    color: #666;
+  }
+  body section#main .container .hidemap .skcompany ul li a:hover {
+    color: #ea002c;
+  }
+  body section#main .container .content {
+    float: left;
+    width: 100%;
+    padding: 50px 0 40px 0;
+  }
+  body section#main .container .content .contents .company_01 {
+    float: left;
+    position: relative;
+    border-right: 1px #eaeaea solid;
+    border-bottom: 1px #eaeaea solid;
+    background: url("../image/sk/bg_skbox_bot.gif");
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    width: 954px;
+    height: 362px;
+    display: none;
+  }
+  body section#main .container .content .contents .company_01 .slide {
+    width: 717px;
+    height: 362px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 1px #eaeaea solid;
+  }
+  body section#main .container .content .contents .company_01 .slide ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  body section#main .container .content .contents .company_01 .slide ul li {
+    float: left;
+    width: 717px;
+  }
+  body section#main .container .content .contents .company_01 .slide ul li:nth-child(2) {
+    display: none;
+  }
+  body section#main .container .content .contents .company_01 .slide ul li:nth-child(3) {
+    display: none;
+  }
+  body section#main .container .content .contents .company_01 .slide .stop {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 47px;
+    background: url("../image/sk/btn_stop.gif");
+  }
+  body section#main .container .content .contents .company_01 .slide .stop:hover {
+    background: url("../image/sk/btn_stop_over.gif");
+  }
+  body section#main .container .content .contents .company_01 .slide .play {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: url("../image/sk/btn_play.gif");
+  }
+  body section#main .container .content .contents .company_01 .slide .play:hover {
+    background: url("../image/sk/btn_play_over.gif");
+  }
+  body section#main .container .content .contents .company_01 .slide .left {
+    position: absolute;
+    top: 170px;
+    left: 25px;
+  }
+  body section#main .container .content .contents .company_01 .slide .right {
+    position: absolute;
+    top: 170px;
+    left: 665px;
+  }
+  body section#main .container .content .contents .company_01 .slide_right {
+    width: 235px;
+    height: 362px;
+    position: relative;
+    float: right;
+  }
+  body section#main .container .content .contents .company_01 .slide_right .rightarea {
+    width: 213px;
+    height: 332px;
+    padding: 29px 0 0 23px;
+    background: url("../image/sk/txt_oksk.gif");
+    background-position: left 23px bottom 16px;
+    background-repeat: no-repeat;
+  }
+  body section#main .container .content .contents .company_01 .slide_right .rightarea .skbtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  body section#main .container .content .contents .company_01 .slide_right .rightarea h2 {
+    height: 24px;
+    padding-left: 6px;
+  }
+  body section#main .container .content .contents .company_01 .slide_right .rightarea h2 img {
+    display: block;
+  }
+  body section#main .container .content .contents .company_01 .slide_right .rightarea ul {
+    height: 91px;
+    padding-left: 6px;
+  }
+  body section#main .container .content .contents .company_01 .slide_right .rightarea ul li {
+    float: left;
+    margin-right: 4px;
+  }
+  body section#main .container .content .contents .company_01 .slide_right .rightarea ul li a {
+    position: relative;
+    display: block;
+  }
+  body section#main .container .content .contents .company_01 .slide_right .rightarea ul li a span {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  body section#main .container .content .contents .company_02 {
+    float: left;
+    position: relative;
+    border-right: 1px #eaeaea solid;
+    border-bottom: 1px #eaeaea solid;
+    background: url("../image/sk/bg_skbox_bot.gif");
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    width: 954px;
+    height: 362px;
+    display: none;
+  }
+  body section#main .container .content .contents .company_02 .slide {
+    width: 717px;
+    height: 362px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 1px #eaeaea solid;
+  }
+  body section#main .container .content .contents .company_02 .slide .left {
+    position: absolute;
+    top: 170px;
+    left: 25px;
+    z-index: 10;
+  }
+  body section#main .container .content .contents .company_02 .slide .right {
+    position: absolute;
+    top: 170px;
+    left: 665px;
+    z-index: 10;
+  }
+  body section#main .container .content .contents .company_02 .slide ul {
+    width: 20000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  body section#main .container .content .contents .company_02 .slide ul li {
+    width: 717px;
+    float: left;
+  }
+  body section#main .container .content .contents .company_02 .slide_right {
+    width: 235px;
+    height: 362px;
+    position: relative;
+    float: right;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea {
+    width: 213px;
+    height: 332px;
+    padding: 29px 0 0 23px;
+    background-position: left 23px bottom 16px;
+    background-repeat: no-repeat;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea .skbtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea h2 {
+    height: 24px;
+    padding-left: 6px;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea h2 img {
+    display: block;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea .prev {
+    position: absolute;
+    top: 55px;
+    left: 40px;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea .next {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea .cwrap {
+    width: 180px;
+    height: 250px;
+    margin-top: 25px;
+    padding-left: 6px;
+    overflow: hidden;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea .cwrap #companylist {
+    position: relative;
+    height: 1071px;
+    top: -357px;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea .cwrap #companylist img {
+    display: block;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea .cwrap #companylist .label {
+    margin: 5px 0;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea .cwrap #companylist li {
+    width: 180px;
+    height: 15px;
+    padding: 1px 0;
+    overflow: hidden;
+  }
+  body section#main .container .content .contents .company_02 .slide_right .rightarea .cwrap #companylist li a {
+    display: block;
+  }
+  body section#main .container .content .contents .investor {
+    float: left;
+    width: 214px;
+    height: 333px;
+    padding: 29px 0 0 26px;
+    background: url("../image/sk/bg_grd_01.gif");
+    background-repeat: repeat-y;
+    border-right: 1px #eaeaea solid;
+    border-bottom: 1px #eaeaea solid;
+  }
+  body section#main .container .content .contents .investor h2 {
+    height: 34px;
+  }
+  body section#main .container .content .contents .investor dl {
+    width: 194px;
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+  body section#main .container .content .contents .investor dl dt {
+    height: 21px;
+  }
+  body section#main .container .content .contents .investor dl dt a {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: malgun;
+    color: #6e6e6e;
+    display: block;
+    width: 190px;
+    background: url("../image/sk/arr_next.gif");
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  body section#main .container .content .contents .sk_media {
+    width: 219px;
+    height: 209px;
+    border-right: 1px #eaeaea solid;
+    border-bottom: 1px #eaeaea solid;
+    float: left;
+    padding: 30px 0 0 19px;
+    background: url("../image/sk/bg_grd_03.gif");
+    background-position: right bottom;
+    background-repeat: repeat-x;
+  }
+  body section#main .container .content .contents .sk_media h2 {
+    height: 31px;
+  }
+  body section#main .container .content .contents .sk_global {
+    width: 200px;
+    height: 209px;
+    float: left;
+    padding: 30px 19px 0 19px;
+    background: url("../image/sk/bg_globalsk_tmp.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #f3f3f3;
+    border-right: 1px #eaeaea solid;
+    border-bottom: 1px #eaeaea solid;
+  }
+  body section#main .container .content .contents .sk_global h2 {
+    height: 31px;
+  }
+  body section#main .container .content .contents .sk_news {
+    position: relative;
+    float: left;
+    width: 717px;
+    height: 239px;
+    border-right: 1px #eaeaea solid;
+    border-bottom: 1px #eaeaea solid;
+  }
+  body section#main .container .content .contents .sk_news .wrap_01 {
+    width: 698px;
+    height: 239px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 19px;
+    display: none;
+  }
+  body section#main .container .content .contents .sk_news .wrap_01 h2 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+  }
+  body section#main .container .content .contents .sk_news .wrap_01 .arr_prev {
+    position: absolute;
+    top: 30px;
+    left: 174px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_01 .arr_prev img {
+    vertical-align: middle;
+  }
+  body section#main .container .content .contents .sk_news .wrap_01 .arr_next {
+    position: absolute;
+    top: 30px;
+    left: 194px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_01 .arr_next img {
+    vertical-align: middle;
+  }
+  body section#main .container .content .contents .sk_news .wrap_01 dt {
+    position: absolute;
+    top: 58px;
+    float: left;
+  }
+  body section#main .container .content .contents .sk_news .wrap_01 dt .text {
+    width: 200px;
+    font-family: malgun;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #333;
+    line-height: 20px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_01 dt .text2 {
+    width: 200px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_01 dd {
+    float: right;
+  }
+  body section#main .container .content .contents .sk_news .wrap_02 {
+    width: 698px;
+    height: 239px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 19px;
+    display: none;
+  }
+  body section#main .container .content .contents .sk_news .wrap_02 h2 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+  }
+  body section#main .container .content .contents .sk_news .wrap_02 .arr_prev {
+    position: absolute;
+    top: 30px;
+    left: 174px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_02 .arr_prev img {
+    vertical-align: middle;
+  }
+  body section#main .container .content .contents .sk_news .wrap_02 .arr_next {
+    position: absolute;
+    top: 30px;
+    left: 194px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_02 .arr_next img {
+    vertical-align: middle;
+  }
+  body section#main .container .content .contents .sk_news .wrap_02 dt {
+    position: absolute;
+    top: 58px;
+    float: left;
+  }
+  body section#main .container .content .contents .sk_news .wrap_02 dt .text {
+    width: 200px;
+    font-family: malgun;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #333;
+    line-height: 20px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_02 dt .text2 {
+    width: 200px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_02 dd {
+    float: right;
+  }
+  body section#main .container .content .contents .sk_news .wrap_03 {
+    width: 698px;
+    height: 239px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 19px;
+    display: none;
+  }
+  body section#main .container .content .contents .sk_news .wrap_03 h2 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+  }
+  body section#main .container .content .contents .sk_news .wrap_03 .arr_prev {
+    position: absolute;
+    top: 30px;
+    left: 174px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_03 .arr_prev img {
+    vertical-align: middle;
+  }
+  body section#main .container .content .contents .sk_news .wrap_03 .arr_next {
+    position: absolute;
+    top: 30px;
+    left: 194px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_03 .arr_next img {
+    vertical-align: middle;
+  }
+  body section#main .container .content .contents .sk_news .wrap_03 dt {
+    position: absolute;
+    top: 58px;
+    float: left;
+  }
+  body section#main .container .content .contents .sk_news .wrap_03 dt .text {
+    width: 200px;
+    font-family: malgun;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #333;
+    line-height: 20px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_03 dt .text2 {
+    width: 200px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_03 dd {
+    float: right;
+  }
+  body section#main .container .content .contents .sk_news .wrap_04 {
+    width: 698px;
+    height: 239px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 19px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_04 h2 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+  }
+  body section#main .container .content .contents .sk_news .wrap_04 .arr_prev {
+    position: absolute;
+    top: 30px;
+    left: 174px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_04 .arr_prev img {
+    vertical-align: middle;
+  }
+  body section#main .container .content .contents .sk_news .wrap_04 .arr_next {
+    position: absolute;
+    top: 30px;
+    left: 194px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_04 .arr_next img {
+    vertical-align: middle;
+  }
+  body section#main .container .content .contents .sk_news .wrap_04 dt {
+    position: absolute;
+    top: 58px;
+    float: left;
+  }
+  body section#main .container .content .contents .sk_news .wrap_04 dt .text {
+    width: 200px;
+    font-family: malgun;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #333;
+    line-height: 20px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_04 dt .text2 {
+    width: 200px;
+  }
+  body section#main .container .content .contents .sk_news .wrap_04 dd {
+    float: right;
+  }
+  body section#main .container .content .contents .divide {
+    width: 238px;
+    height: 372px;
+    float: left;
+    border-right: 1px #eaeaea solid;
+  }
+  body section#main .container .content .contents .divide .social {
+    width: 100%;
+    height: 190px;
+    background: url("../image/sk/social_bg.jpg");
+    background-position: 39px bottom;
+    background-repeat: no-repeat;
+    background-color: #f3f3f3;
+    overflow: hidden;
+  }
+  body section#main .container .content .contents .divide .social dt {
+    width: 190px;
+    height: 31px;
+    padding: 30px 0 0 19px;
+  }
+  body section#main .container .content .contents .divide .social dd {
+    position: relative;
+    width: 205px;
+    padding: 0 0 20px 19px;
+  }
+  body section#main .container .content .contents .divide .social dd p {
+    line-height: 16px;
+  }
+  body section#main .container .content .contents .divide .social dd div {
+    margin-top: 7px;
+  }
+  body section#main .container .content .contents .divide .social dd div span {
+    text-decoration: underline;
+    letter-spacing: -0.15em;
+  }
+  body section#main .container .content .contents .divide .social dd div img {
+    vertical-align: top;
+  }
+  body section#main .container .content .contents .divide .nanum {
+    padding: 30px 0 0 19px;
+    border-top: 1px #eaeaea solid;
+  }
+  body section#main .container .content .contents .divide .nanum dt {
+    height: 31px;
+  }
+  body section#main .container .content .contents .sk_cf {
+    width: 220px;
+    height: 342px;
+    float: left;
+    padding: 30px 0 0 18px;
+    border-right: 1px #eaeaea solid;
+  }
+  body section#main .container .content .contents .sk_cf h2 {
+    height: 29px;
+  }
+  body section#main .container .content .contents .sk_cf h3 {
+    line-height: 20px;
+    font-size: 15px;
+    font-family: malgun;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 15px;
+    width: auto;
+    max-width: 200px;
+  }
+  body section#main .container .content .contents .sk_cf .sk_video {
+    position: relative;
+    text-align: center;
+    width: 205px;
+  }
+  body section#main .container .content .contents .sk_cf p {
+    width: 200px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  body section#main .container .content .contents .talented {
+    width: 217px;
+    height: 316px;
+    float: left;
+    padding: 30px 0 26px 19px;
+    border-right: 1px #eaeaea solid;
+  }
+  body section#main .container .content .contents .talented h2 {
+    height: 29px;
+  }
+  body section#main .container .content .contents .talented h3 {
+    width: 90%;
+    height: 111px;
+    font-family: malgun;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    line-height: 20px;
+  }
+  body section#main .container .content .contents .talented h3 a {
+    font-family: malgun;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  body section#main .container .content .contents .talented h3 p {
+    width: 100%;
+    margin-top: 10px;
+    color: #343434;
+    font-weight: normal !important;
+    font-family: malgun;
+    font-size: 14px !important;
+    line-height: 17px;
+  }
+  body section#main .container .content .contents .talented h3 p a {
+    font-size: 14px;
+    color: #343434;
+    line-height: 17px;
+    font-family: malgun;
+    font-weight: normal;
+  }
+  body section#main .container .content .contents .talented h3 p a span {
+    border-bottom: 1px #666 solid;
+  }
+  body section#main .container .content .contents .talented h3 p a img {
+    vertical-align: middle;
+  }
+  body section#main .container .content .contents .talented dl {
+    width: 204px;
+    font-size: 11px;
+    font-family: verdana, Dotum;
+    letter-spacing: -1px;
+    padding-bottom: 14px;
+  }
+  body section#main .container .content .contents .talented dl dt {
+    color: #de0029;
+    padding-bottom: 2px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+  }
+  body section#main .container .content .contents .talented dl dt span {
+    display: block;
+    color: #000;
+  }
+  body section#main .container .content .contents .talented dl dd {
+    line-height: 16px;
+    color: #999;
+  }
+  body section#main .container .content .contents .sk_sport {
+    width: 220px;
+    height: 342px;
+    padding: 30px 0 0 19px;
+    float: left;
+    border-right: 1px #eaeaea solid;
+    background: url("../image/sk/bg_sports.jpg");
+    background-position: center 160px;
+    background-repeat: no-repeat;
+  }
+  body section#main .container .content .contents .sk_sport h2 {
+    height: 29px;
+  }
+  body section#main .container .content .contents .sk_sport h3 {
+    width: 90%;
+    height: 50px;
+    color: #333;
+    font-family: malgun;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  body section#main .container .content .contents .sk_sport .text {
+    width: 84%;
+    font-family: malgun;
+    font-size: 14px;
+  }
+  body section#main .container .content .contents .sk_blog {
+    position: relative;
+    width: 217px;
+    height: 342px;
+    padding: 30px 0 0 20px;
+    border-right: 1px #eaeaea solid;
+    float: left;
+  }
+  body section#main .container .content .contents .sk_blog h2 {
+    height: 29px;
+  }
+  body section#main .container .content .contents .sk_blog h3 {
+    width: 198px;
+    padding-bottom: 15px;
+    font-family: malgun;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #333;
+  }
+  body section#main .container .content .contents .sk_blog .text {
+    width: 198px;
+    height: 72px;
+  }
+  body section#main .container .content .contents .sk_blog .p_img {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  body section#main .container .content .contents .sk_blog .p_img img {
+    width: 197px;
+    height: 112px;
+  }
+  body footer {
+    position: relative;
+    width: 100%;
+    height: 129px;
+    border-top: 1px #eaeaea solid;
+    background-color: #fff;
+    color: #595959;
+    letter-spacing: -1px;
+    line-height: 17px;
+  }
+  body footer h1 {
+    position: absolute;
+    top: 25px;
+    left: 57px;
+  }
+  body footer .footermenu {
+    position: absolute;
+    top: 30px;
+    left: 286px;
+  }
+  body footer .footermenu li {
+    float: left;
+    margin-right: 20px;
+  }
+  body footer .footermenu li img {
+    display: block;
+  }
+  body footer p {
+    position: absolute;
+    top: 49px;
+    left: 286px;
+    width: 482px;
+    height: 24px;
+    font-size: 11px;
+  }
+  body footer p span {
+    font-size: 10px;
+    font-family: Verdana,arial;
+  }
+  body footer .Accessibility {
+    position: absolute;
+    top: 22px;
+    left: 1124px;
+  }
 }
