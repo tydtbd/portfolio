@@ -95,7 +95,6 @@ header{
        }
      }
    }
-  .gnb_m{ display: none;}
 
 section{
     position: relative;
@@ -201,6 +200,8 @@ section{
                 width: 100%;
                 padding: 50px 0 40px 0;
                 .contents{
+                  .menu_m{ display: none;}
+                  .sub_menu{ display: none;}
                   .company_01{
                     float: left;
                     position: relative;
@@ -211,6 +212,7 @@ section{
                     background-repeat: repeat-x;
                     width: 954px;
                     height: 362px;
+                    overflow: hidden;
                     display: none;
                     .slide{
                       width: 717px;
@@ -227,8 +229,6 @@ section{
                         float: left;
                         width: 717px;
                         }
-                        li:nth-child(2){display: none;}
-                        li:nth-child(3){display: none;}
                       }
                       .stop{
                         width: 30px;
@@ -254,11 +254,13 @@ section{
                         position: absolute;
                         top: 170px;
                         left: 25px;
+                        z-index: 30;
                       }
                       .right{
                         position: absolute;
                         top: 170px;
                         left: 665px;
+                        z-index: 30;
                       }
                     }
                     .slide_right{
@@ -316,6 +318,7 @@ section{
                     background-repeat: repeat-x;
                     width: 954px;
                     height: 362px;
+                    overflow: hidden;
                     .slide{
                       width: 717px;
                       height: 362px;
@@ -403,6 +406,9 @@ section{
                       }
                     }
                   }
+                  .mainvisual{
+                    display: none;
+                  }
                   .investor{
                     float: left;
                     width: 214px;
@@ -444,6 +450,7 @@ section{
                     background-repeat: repeat-x;
                     h2{height: 31px;}
                   }
+                  .sknews_m{ display: none;}
                   .sk_global{
                     width: 200px;
                     height: 209px;
@@ -459,6 +466,7 @@ section{
                       height: 31px;
                     }
                   }
+                  .skcf_m{ display: none;}
                   .sk_news{
                     position: relative;
                     float: left;
@@ -473,7 +481,6 @@ section{
                       position: absolute;
                       top: 0;
                       left: 19px;
-                      display: none;
                       h2{
                         position: absolute;
                         top: 30px;
@@ -605,6 +612,7 @@ section{
                       position: absolute;
                       top: 0;
                       left: 19px;
+                      display: none;
                       h2{
                         position: absolute;
                         top: 30px;
@@ -832,6 +840,10 @@ section{
                       }
                     }
                   }
+                  .divide_m{
+                    display: none;
+                  }
+                  .skmedia{display: none;}
                 }
               }
            }
@@ -873,6 +885,7 @@ footer{
       font-family: Verdana,arial;
     }
   }
+  .copyright_m{ display: none;}
   .Accessibility{
     position: absolute;
     top: 22px;
