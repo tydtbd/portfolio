@@ -36,4 +36,21 @@ $(function() {
             left: -755
         })
     })
+    // sitemenu
+    $('.sitemaparea a img').hover(function() {
+
+            if ($(this).attr('id') != "a1") {
+
+                var nc = $(this).attr('src').replace('_off.gif', '_on.gif');
+                $(this).attr('src', nc);
+            }
+        },
+        function() {
+
+            if ($(this).attr('id') != "a1") {
+
+                var nc = $(this).attr('src').replace('_on.gif', '_off.gif');
+                $(this).attr('src', nc);
+            }
+        });
 });
