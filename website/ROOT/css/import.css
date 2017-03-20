@@ -250,7 +250,6 @@ section .container .content .contents .company_01 {
   background-repeat: repeat-x;
   width: 954px;
   height: 362px;
-  overflow: hidden;
   display: none;
 }
 section .container .content .contents .company_01 .slide {
@@ -260,6 +259,7 @@ section .container .content .contents .company_01 .slide {
   top: 0;
   left: 0;
   border-right: 1px #eaeaea solid;
+  overflow: hidden;
 }
 section .container .content .contents .company_01 .slide ul {
   position: absolute;
@@ -362,7 +362,6 @@ section .container .content .contents .company_02 {
   background-repeat: repeat-x;
   width: 954px;
   height: 362px;
-  overflow: hidden;
 }
 section .container .content .contents .company_02 .slide {
   width: 717px;
@@ -370,6 +369,7 @@ section .container .content .contents .company_02 .slide {
   position: absolute;
   top: 0;
   left: 0;
+  overflow: hidden;
   border-right: 1px #eaeaea solid;
 }
 section .container .content .contents .company_02 .slide .left {
@@ -2921,7 +2921,7 @@ section#supex .container .content .contents .navi li {
   padding: 0 10px 0 9px;
   background: url("../image/sk/bg_bar_navi.gif");
   background-position: right 1px;
-  background-position: no-repeat;
+  background-repeat: no-repeat;
 }
 section#supex .container .content .contents .navi li a {
   font-size: 11px;
