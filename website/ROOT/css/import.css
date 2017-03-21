@@ -132,7 +132,6 @@ section .container .sitemaparea {
   margin: 0 0 0 -327px;
 }
 section .container .sitemaparea .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -1021,6 +1020,12 @@ section#about {
   background-position: right bottom;
   background-repeat: repeat-y;
 }
+section#about .menu_m {
+  display: none;
+}
+section#about .sub_menu {
+  display: none;
+}
 section#about .linkarea {
   position: absolute;
   top: 0;
@@ -1100,7 +1105,6 @@ section#about .container .sitemaparea ul li {
   line-height: 0;
 }
 section#about .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -1261,6 +1265,12 @@ section#channel {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#channel .menu_m {
+  display: none;
+}
+section#channel .sub_menu {
+  display: none;
+}
 section#channel .linkarea {
   position: absolute;
   top: 0;
@@ -1335,7 +1345,6 @@ section#channel .container .sitemaparea ul li {
   line-height: 0;
 }
 section#channel .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -1771,6 +1780,12 @@ section#talented {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#talented .menu_m {
+  display: none;
+}
+section#talented .sub_menu {
+  display: none;
+}
 section#talented .linkarea {
   position: absolute;
   top: 0;
@@ -1840,7 +1855,6 @@ section#talented .container .sitemaparea ul li {
   line-height: 0;
 }
 section#talented .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -2110,6 +2124,12 @@ section#divide {
   background-repeat: repeat-y;
   background-position: right top;
 }
+section#divide .menu_m {
+  display: none;
+}
+section#divide .sub_menu {
+  display: none;
+}
 section#divide .linkarea {
   position: absolute;
   top: 0;
@@ -2198,7 +2218,6 @@ section#divide .container .sitemaparea ul li {
   line-height: 0;
 }
 section#divide .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -2476,7 +2495,7 @@ section#divide .container .content .contentbox .nanum .socialwork h6 {
   width: 72px;
   height: 15px;
   background: url("../image/sk/txt_csr_01.gif");
-  background-position: no-repeat;
+  background-repeat: no-repeat;
   background-position: -221px -93px;
 }
 section#divide .container .content .contentbox .nanum .socialwork h6 span {
@@ -2731,6 +2750,12 @@ section#supex {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#supex .menu_m {
+  display: none;
+}
+section#supex .sub_menu {
+  display: none;
+}
 section#supex .linkarea {
   position: absolute;
   top: 0;
@@ -2799,7 +2824,6 @@ section#supex .container .sitemaparea ul li {
   line-height: 0;
 }
 section#supex .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -2970,6 +2994,12 @@ section#affiliate {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#affiliate .menu_m {
+  display: none;
+}
+section#affiliate .sub_menu {
+  display: none;
+}
 section#affiliate .linkarea {
   position: absolute;
   top: 0;
@@ -3039,7 +3069,6 @@ section#affiliate .container .sitemaparea ul li {
   line-height: 0;
 }
 section#affiliate .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -3262,6 +3291,12 @@ section#global {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#global .menu_m {
+  display: none;
+}
+section#global .sub_menu {
+  display: none;
+}
 section#global .linkarea {
   position: absolute;
   top: 0;
@@ -3331,7 +3366,6 @@ section#global .container .sitemaparea ul li {
   line-height: 0;
 }
 section#global .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -3611,6 +3645,12 @@ section#ci {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#ci .menu_m {
+  display: none;
+}
+section#ci .sub_menu {
+  display: none;
+}
 section#ci .linkarea {
   position: absolute;
   top: 0;
@@ -3680,7 +3720,6 @@ section#ci .container .sitemaparea ul li {
   line-height: 0;
 }
 section#ci .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -4013,6 +4052,12 @@ section#culture {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#culture .menu_m {
+  display: none;
+}
+section#culture .sub_menu {
+  display: none;
+}
 section#culture .linkarea {
   position: absolute;
   top: 0;
@@ -4082,7 +4127,6 @@ section#culture .container .sitemaparea ul li {
   line-height: 0;
 }
 section#culture .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -4262,6 +4306,12 @@ section#history {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#history .menu_m {
+  display: none;
+}
+section#history .sub_menu {
+  display: none;
+}
 section#history .linkarea {
   position: absolute;
   top: 0;
@@ -4331,7 +4381,6 @@ section#history .container .sitemaparea ul li {
   line-height: 0;
 }
 section#history .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -4631,6 +4680,12 @@ section#tvad {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#tvad .menu_m {
+  display: none;
+}
+section#tvad .sub_menu {
+  display: none;
+}
 section#tvad .linkarea {
   position: absolute;
   top: 0;
@@ -4704,7 +4759,6 @@ section#tvad .container .sitemaparea ul li {
   line-height: 0;
 }
 section#tvad .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -5025,6 +5079,12 @@ section#recruit {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#recruit .menu_m {
+  display: none;
+}
+section#recruit .sub_menu {
+  display: none;
+}
 section#recruit .linkarea {
   position: absolute;
   top: 0;
@@ -5094,7 +5154,6 @@ section#recruit .container .sitemaparea ul li {
   line-height: 0;
 }
 section#recruit .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -5315,6 +5374,12 @@ section#nurture {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#nurture .menu_m {
+  display: none;
+}
+section#nurture .sub_menu {
+  display: none;
+}
 section#nurture .linkarea {
   position: absolute;
   top: 0;
@@ -5384,7 +5449,6 @@ section#nurture .container .sitemaparea ul li {
   line-height: 0;
 }
 section#nurture .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -5726,6 +5790,12 @@ section#indemnify {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#indemnify .menu_m {
+  display: none;
+}
+section#indemnify .sub_menu {
+  display: none;
+}
 section#indemnify .linkarea {
   position: absolute;
   top: 0;
@@ -5795,7 +5865,6 @@ section#indemnify .container .sitemaparea ul li {
   line-height: 0;
 }
 section#indemnify .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -6083,6 +6152,12 @@ section#recruitment {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#recruitment .menu_m {
+  display: none;
+}
+section#recruitment .sub_menu {
+  display: none;
+}
 section#recruitment .linkarea {
   position: absolute;
   top: 0;
@@ -6152,7 +6227,6 @@ section#recruitment .container .sitemaparea ul li {
   line-height: 0;
 }
 section#recruitment .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -6385,7 +6459,7 @@ section#recruitment .container .content .contentbox .page ul li:first-child {
   color: #ea002c;
   background: url("../image/sk/bg_bar_01.gif");
   background-position: right center;
-  background-position: no-repeat;
+  background-repeat: no-repeat;
 }
 section#recruitment .container .content .contentbox .page ul li:first-child label {
   color: #888;
@@ -6433,6 +6507,12 @@ section#divide_02 {
   background: url("../image/sk/bg_linkbox_nospace.gif");
   background-position: right top;
   background-repeat: repeat-y;
+}
+section#divide_02 .menu_m {
+  display: none;
+}
+section#divide_02 .sub_menu {
+  display: none;
 }
 section#divide_02 .linkarea {
   position: absolute;
@@ -6522,7 +6602,6 @@ section#divide_02 .container .sitemaparea ul li {
   line-height: 0;
 }
 section#divide_02 .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -6824,6 +6903,12 @@ section#divide_03 {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#divide_03 .menu_m {
+  display: none;
+}
+section#divide_03 .sub_menu {
+  display: none;
+}
 section#divide_03 .linkarea {
   position: absolute;
   top: 0;
@@ -6912,7 +6997,6 @@ section#divide_03 .container .sitemaparea ul li {
   line-height: 0;
 }
 section#divide_03 .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -7110,6 +7194,12 @@ section#divide_04 {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#divide_04 .menu_m {
+  display: none;
+}
+section#divide_04 .sub_menu {
+  display: none;
+}
 section#divide_04 .linkarea {
   position: absolute;
   top: 0;
@@ -7198,7 +7288,6 @@ section#divide_04 .container .sitemaparea ul li {
   line-height: 0;
 }
 section#divide_04 .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -7421,6 +7510,12 @@ section#divide_05 {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#divide_05 .menu_m {
+  display: none;
+}
+section#divide_05 .sub_menu {
+  display: none;
+}
 section#divide_05 .linkarea {
   position: absolute;
   top: 0;
@@ -7509,7 +7604,6 @@ section#divide_05 .container .sitemaparea ul li {
   line-height: 0;
 }
 section#divide_05 .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -7704,6 +7798,12 @@ section#divide_06 {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#divide_06 .menu_m {
+  display: none;
+}
+section#divide_06 .sub_menu {
+  display: none;
+}
 section#divide_06 .linkarea {
   position: absolute;
   top: 0;
@@ -7792,7 +7892,6 @@ section#divide_06 .container .sitemaparea ul li {
   line-height: 0;
 }
 section#divide_06 .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -7999,6 +8098,12 @@ section#divide_07 {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#divide_07 .menu_m {
+  display: none;
+}
+section#divide_07 .sub_menu {
+  display: none;
+}
 section#divide_07 .linkarea {
   position: absolute;
   top: 0;
@@ -8087,7 +8192,6 @@ section#divide_07 .container .sitemaparea ul li {
   line-height: 0;
 }
 section#divide_07 .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -8294,6 +8398,12 @@ section#search {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#search .menu_m {
+  display: none;
+}
+section#search .sub_menu {
+  display: none;
+}
 section#search .container {
   position: relative;
   padding: 0 259px 0 327px;
@@ -8322,7 +8432,6 @@ section#search .container .sitemaparea ul li {
   line-height: 0;
 }
 section#search .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -8601,6 +8710,12 @@ section#email {
   background-position: right top;
   background-repeat: repeat-y;
 }
+section#email .menu_m {
+  display: none;
+}
+section#email .sub_menu {
+  display: none;
+}
 section#email .linkarea {
   position: absolute;
   top: 0;
@@ -8649,7 +8764,6 @@ section#email .container .sitemaparea ul li {
   line-height: 0;
 }
 section#email .container .map_open {
-  display: block;
   position: absolute;
   top: 0;
   left: 7px;
@@ -8888,6 +9002,2282 @@ section#email .container .content .contentbox .emailbox p {
     top: 5px;
     left: 150px;
   }
+  footer {
+    position: relative;
+    min-width: 290px;
+    width: 100%;
+    height: 129px;
+    border-top: 1px #eaeaea solid;
+    background-color: #fff;
+    color: #595959;
+    letter-spacing: -1px;
+    line-height: 17px;
+  }
+  footer h1 {
+    position: absolute;
+    top: 25px;
+    left: 57px;
+  }
+  footer .footermenu {
+    display: none;
+  }
+  footer p {
+    display: none;
+  }
+  footer .copyright_m {
+    display: block;
+    position: absolute;
+    top: 27px;
+    left: 150px;
+    width: 50%;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -1px;
+  }
+  footer .copyright_m span {
+    display: block;
+    color: #595959;
+    line-height: 16px;
+  }
+  footer .Accessibility {
+    position: absolute;
+    top: 25px;
+    left: 350px;
+  }
+  section#about {
+    background: none;
+  }
+  section#about .sitemaparea {
+    display: none;
+  }
+  section#about .map_open {
+    display: none;
+  }
+  section#about .container {
+    padding: 0 15px 0 15px;
+  }
+  section#about .linkarea {
+    display: none;
+  }
+  section#about .content span {
+    display: none;
+  }
+  section#about .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#about .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#about .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#about .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#about .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#about #content {
+    padding: 0 0 40px 0;
+  }
+  section#about .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#about .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#about .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#supex {
+    background: none;
+  }
+  section#supex img {
+    max-width: 100%;
+  }
+  section#supex .sitemaparea {
+    display: none;
+  }
+  section#supex .map_open {
+    display: none;
+  }
+  section#supex .container {
+    padding: 0 15px 0 15px;
+  }
+  section#supex .linkarea {
+    display: none;
+  }
+  section#supex .content span {
+    display: none;
+  }
+  section#supex .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#supex .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#supex .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#supex .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#supex .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#supex #content {
+    padding: 0 0 40px 0;
+  }
+  section#supex .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#supex .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#supex .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#affiliate {
+    background: none;
+  }
+  section#affiliate .sitemaparea {
+    display: none;
+  }
+  section#affiliate .map_open {
+    display: none;
+  }
+  section#affiliate .container {
+    padding: 0 15px 0 15px;
+  }
+  section#affiliate .linkarea {
+    display: none;
+  }
+  section#affiliate .content span {
+    display: none;
+  }
+  section#affiliate .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#affiliate .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#affiliate .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#affiliate .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#affiliate .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#affiliate #content {
+    padding: 0 0 40px 0;
+  }
+  section#affiliate #content .sklist li img {
+    width: 145px;
+    height: 70px;
+  }
+  section#affiliate #content .sklist li {
+    width: 145px;
+  }
+  section#affiliate #content .sklist li p {
+    width: 100%;
+    height: 105px;
+    padding-bottom: 20px;
+  }
+  section#affiliate .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#affiliate .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#affiliate .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#global {
+    background: none;
+  }
+  section#global img {
+    max-width: 100%;
+  }
+  section#global .sitemaparea {
+    display: none;
+  }
+  section#global .map_open {
+    display: none;
+  }
+  section#global .container {
+    padding: 0 15px 0 15px;
+  }
+  section#global .linkarea {
+    display: none;
+  }
+  section#global .content span {
+    display: none;
+  }
+  section#global .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#global .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#global .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#global .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#global .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#global #content {
+    padding: 0 0 40px 0;
+  }
+  section#global .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#global .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#global .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#ci {
+    background: none;
+  }
+  section#ci img {
+    max-width: 100%;
+  }
+  section#ci .sitemaparea {
+    display: none;
+  }
+  section#ci .map_open {
+    display: none;
+  }
+  section#ci .container {
+    padding: 0 15px 0 15px;
+  }
+  section#ci .linkarea {
+    display: none;
+  }
+  section#ci .content span {
+    display: none;
+  }
+  section#ci .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#ci .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#ci .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#ci .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#ci .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#ci #content {
+    padding: 0 0 40px 0;
+  }
+  section#ci .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#ci .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#ci .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#culture {
+    background: none;
+  }
+  section#culture img {
+    max-width: 100%;
+  }
+  section#culture .sitemaparea {
+    display: none;
+  }
+  section#culture .map_open {
+    display: none;
+  }
+  section#culture .container {
+    padding: 0 15px 0 15px;
+  }
+  section#culture .linkarea {
+    display: none;
+  }
+  section#culture .content span {
+    display: none;
+  }
+  section#culture .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#culture .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#culture .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#culture .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#culture .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#culture #content {
+    padding: 0 0 40px 0;
+  }
+  section#culture .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#culture .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#culture .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#history {
+    background: none;
+  }
+  section#history img {
+    max-width: 100%;
+  }
+  section#history .sitemaparea {
+    display: none;
+  }
+  section#history .map_open {
+    display: none;
+  }
+  section#history .container {
+    padding: 0 15px 0 15px;
+  }
+  section#history .linkarea {
+    display: none;
+  }
+  section#history .content span {
+    display: none;
+  }
+  section#history .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#history .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#history .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#history .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#history .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#history #content {
+    padding: 0 0 40px 0;
+  }
+  section#history .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#history .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#history .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#history .historybox {
+    display: none;
+  }
+  section#channel {
+    background: none;
+  }
+  section#channel .sitemaparea {
+    display: none;
+  }
+  section#channel .map_open {
+    display: none;
+  }
+  section#channel .container {
+    padding: 0 15px 0 15px;
+  }
+  section#channel .linkarea {
+    display: none;
+  }
+  section#channel .content span {
+    display: none;
+  }
+  section#channel .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#channel .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#channel .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#channel .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#channel .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#channel #content {
+    padding: 0 0 40px 0;
+  }
+  section#channel .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#channel .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#channel .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#channel .headline dl {
+    display: none;
+  }
+  section#channel .headline p {
+    text-align: center;
+    margin: 0 !important;
+  }
+  section#channel .headline p img {
+    width: 100%;
+  }
+  section#tvad {
+    background: none;
+  }
+  section#tvad .sitemaparea {
+    display: none;
+  }
+  section#tvad .map_open {
+    display: none;
+  }
+  section#tvad .container {
+    padding: 0 15px 0 15px;
+  }
+  section#tvad .linkarea {
+    display: none;
+  }
+  section#tvad .content .arr_next {
+    display: none;
+  }
+  section#tvad .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#tvad .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#tvad .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#tvad .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#tvad .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#tvad #content {
+    padding: 0 0 40px 0;
+  }
+  section#tvad .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#tvad .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#tvad .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#tvad .listwrap dl {
+    float: none !important;
+    margin: 0 auto !important;
+  }
+  section#tvad .paging input {
+    vertical-align: middle;
+  }
+  section#talented {
+    background: none;
+  }
+  section#talented .sitemaparea {
+    display: none;
+  }
+  section#talented .map_open {
+    display: none;
+  }
+  section#talented .container {
+    padding: 0 15px 0 15px;
+  }
+  section#talented .linkarea {
+    display: none;
+  }
+  section#talented .content span {
+    display: none;
+  }
+  section#talented .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#talented .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#talented .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#talented .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#talented .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#talented #content {
+    padding: 0 0 40px 0;
+  }
+  section#talented .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#talented .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#talented .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#talented #w1 {
+    width: 100%;
+    margin-left: 0;
+  }
+  section#talented #w2 div {
+    width: 100%;
+    border: none;
+  }
+  section#recruit {
+    background: none;
+  }
+  section#recruit img {
+    max-width: 100%;
+  }
+  section#recruit .sitemaparea {
+    display: none;
+  }
+  section#recruit .map_open {
+    display: none;
+  }
+  section#recruit .container {
+    padding: 0 15px 0 15px;
+  }
+  section#recruit .linkarea {
+    display: none;
+  }
+  section#recruit .content .arr_next {
+    display: none;
+  }
+  section#recruit .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#recruit .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#recruit .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#recruit .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#recruit .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#recruit #content {
+    padding: 0 0 40px 0;
+  }
+  section#recruit .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#recruit .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#recruit .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#nurture {
+    background: none;
+  }
+  section#nurture img {
+    max-width: 100%;
+  }
+  section#nurture .sitemaparea {
+    display: none;
+  }
+  section#nurture .map_open {
+    display: none;
+  }
+  section#nurture .container {
+    padding: 0 15px 0 15px;
+  }
+  section#nurture .linkarea {
+    display: none;
+  }
+  section#nurture .content .arr_next {
+    display: none;
+  }
+  section#nurture .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#nurture .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#nurture .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#nurture .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#nurture .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#nurture #content {
+    padding: 0 0 40px 0;
+  }
+  section#nurture .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#nurture .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#nurture .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#indemnify {
+    background: none;
+  }
+  section#indemnify img {
+    max-width: 100%;
+  }
+  section#indemnify .sitemaparea {
+    display: none;
+  }
+  section#indemnify .map_open {
+    display: none;
+  }
+  section#indemnify .container {
+    padding: 0 15px 0 15px;
+  }
+  section#indemnify .linkarea {
+    display: none;
+  }
+  section#indemnify .content .arr_next {
+    display: none;
+  }
+  section#indemnify .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#indemnify .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#indemnify .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#indemnify .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#indemnify .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#indemnify #content {
+    padding: 0 0 40px 0;
+  }
+  section#indemnify .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#indemnify .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#indemnify .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#recruitment {
+    background: none;
+  }
+  section#recruitment img {
+    max-width: 100%;
+  }
+  section#recruitment .sitemaparea {
+    display: none;
+  }
+  section#recruitment .map_open {
+    display: none;
+  }
+  section#recruitment .container {
+    padding: 0 15px 0 15px;
+  }
+  section#recruitment .linkarea {
+    display: none;
+  }
+  section#recruitment .content .arr_next {
+    display: none;
+  }
+  section#recruitment .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#recruitment .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#recruitment .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#recruitment .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#recruitment .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#recruitment #content {
+    padding: 0 0 40px 0;
+  }
+  section#recruitment .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#recruitment .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#recruitment .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#divide {
+    background: none;
+  }
+  section#divide .sitemaparea {
+    display: none;
+  }
+  section#divide .map_open {
+    display: none;
+  }
+  section#divide .container {
+    padding: 0 15px 0 15px;
+  }
+  section#divide .linkarea {
+    display: none;
+  }
+  section#divide .content .arr_next {
+    display: none;
+  }
+  section#divide .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#divide .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#divide .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#divide .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#divide .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#divide #content {
+    padding: 0 0 40px 0;
+  }
+  section#divide .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#divide .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#divide .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#divide .dotwrap ul {
+    width: 330px;
+    margin: 0 auto;
+  }
+  section#divide .dotwrap p img {
+    max-width: 100%;
+  }
+  section#divide #circle {
+    height: 100%;
+    position: relative;
+    line-height: 19px;
+    background: url("../image/sk/circle_socialwork_01.jpg");
+    background-repeat: no-repeat;
+    padding-top: 340px;
+    background-position: 50% 0%;
+  }
+  section#divide #circle dl {
+    position: static;
+    float: left;
+    width: 100%;
+  }
+  section#divide #circle dl dt {
+    width: 65px;
+    height: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+  section#divide #circle dl dd {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 11px;
+    letter-spacing: -1px;
+  }
+  section#divide #socialwork {
+    background-position: 94% 42%;
+  }
+  section#divide #socialwork .social {
+    float: none;
+  }
+  section#divide #socialwork .socials {
+    float: none;
+  }
+  section#divide #socialwork dl {
+    position: relative;
+    float: left;
+    width: 170px;
+    padding-left: 80px;
+    margin-top: 20px;
+    min-height: 70px;
+  }
+  section#divide #socialwork dl dt {
+    height: 15px;
+    background: url("../image/sk/txt_csr_01.gif");
+    background-repeat: no-repeat;
+  }
+  section#divide #socialwork dl .pic {
+    width: 70px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 3px;
+  }
+  section#divide #socialwork dl .pic img {
+    position: absolute;
+  }
+  section#divide #socialwork dl dd li {
+    padding-left: 8px;
+    font-size: 11px;
+    letter-spacing: -1px;
+    line-height: 18px;
+    background: url("../image/sk/icon_list_02.gif");
+    background-position: 0 7px;
+    background-repeat: no-repeat;
+  }
+  section#divide #socialwork .innovate dt {
+    width: 84px;
+    background-position: 0 -108px;
+  }
+  section#divide #socialwork .creative dt {
+    width: 68px;
+    background-position: -84px -108px;
+  }
+  section#divide #socialwork .join dt {
+    width: 86px;
+    background-position: -157px -108px;
+  }
+  section#divide #socialwork .global dt {
+    width: 68px;
+    background-position: -248px -108px;
+  }
+  section#divide #socialwork .welfare dt {
+    width: 86px;
+    background-position: -320px -108px;
+  }
+  section#divide #socialwork .sport dt {
+    width: 86px;
+    background-position: -320px -89px;
+  }
+  section#divide #program ul li {
+    width: 48%;
+  }
+  section#divide_02 {
+    background: none;
+  }
+  section#divide_02 .sitemaparea {
+    display: none;
+  }
+  section#divide_02 .map_open {
+    display: none;
+  }
+  section#divide_02 .container {
+    padding: 0 15px 0 15px;
+  }
+  section#divide_02 .contentbox h4 {
+    background-size: 280px;
+  }
+  section#divide_02 .linkarea {
+    display: none;
+  }
+  section#divide_02 .content .arr_next {
+    display: none;
+  }
+  section#divide_02 .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#divide_02 .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#divide_02 .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#divide_02 .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#divide_02 .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#divide_02 #content {
+    padding: 0 0 40px 0;
+  }
+  section#divide_02 .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#divide_02 .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#divide_02 .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#divide_02 #h4 {
+    background-size: 280px;
+    height: 200px;
+  }
+  section#divide_02 #social {
+    margin: 25px 0;
+    overflow: hidden;
+  }
+  section#divide_02 #social dl {
+    width: 100%;
+    height: 145px;
+    display: inline-block;
+    padding-right: 7%;
+  }
+  section#divide_02 #social dl dt {
+    padding: 0 0 15px 7px;
+    float: left;
+  }
+  section#divide_02 #social dl dd {
+    width: 60%;
+    padding-left: 3%;
+  }
+  section#divide_03 {
+    background: none;
+  }
+  section#divide_03 img {
+    max-width: 100%;
+  }
+  section#divide_03 .sitemaparea {
+    display: none;
+  }
+  section#divide_03 .map_open {
+    display: none;
+  }
+  section#divide_03 .container {
+    padding: 0 15px 0 15px;
+  }
+  section#divide_03 .linkarea {
+    display: none;
+  }
+  section#divide_03 .content .arr_next {
+    display: none;
+  }
+  section#divide_03 .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#divide_03 .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#divide_03 .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#divide_03 .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#divide_03 .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#divide_03 #content {
+    padding: 0 0 40px 0;
+  }
+  section#divide_03 .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#divide_03 .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#divide_03 .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#divide_03 #csr1 {
+    width: 100%;
+  }
+  section#divide_04 {
+    background: none;
+  }
+  section#divide_04 img {
+    max-width: 100%;
+  }
+  section#divide_04 .sitemaparea {
+    display: none;
+  }
+  section#divide_04 .map_open {
+    display: none;
+  }
+  section#divide_04 .container {
+    padding: 0 15px 0 15px;
+  }
+  section#divide_04 .linkarea {
+    display: none;
+  }
+  section#divide_04 .content .arr_next {
+    display: none;
+  }
+  section#divide_04 .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#divide_04 .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#divide_04 .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#divide_04 .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#divide_04 .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#divide_04 #content {
+    padding: 0 0 40px 0;
+  }
+  section#divide_04 .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#divide_04 .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#divide_04 .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#divide_04 #bono dl {
+    float: none;
+    width: 100%;
+  }
+  section#divide_05 {
+    background: none;
+  }
+  section#divide_05 img {
+    max-width: 100%;
+  }
+  section#divide_05 .sitemaparea {
+    display: none;
+  }
+  section#divide_05 .map_open {
+    display: none;
+  }
+  section#divide_05 .container {
+    padding: 0 15px 0 15px;
+  }
+  section#divide_05 .linkarea {
+    display: none;
+  }
+  section#divide_05 .content .arr_next {
+    display: none;
+  }
+  section#divide_05 .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#divide_05 .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#divide_05 .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#divide_05 .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#divide_05 .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#divide_05 #content {
+    padding: 0 0 40px 0;
+  }
+  section#divide_05 .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#divide_05 .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#divide_05 .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#divide_05 #con h4 {
+    height: 200px;
+    overflow: hidden;
+    background-size: 280px;
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 16px;
+    background-position: right 0;
+  }
+  section#divide_05 #con .h4_txt {
+    position: relative;
+    margin: 0 0 30px 0;
+    font-size: 11px;
+    line-height: 20px;
+  }
+  section#divide_05 #skbox dl {
+    float: none;
+    margin: 0 auto;
+  }
+  section#divide_06 {
+    background: none;
+  }
+  section#divide_06 img {
+    max-width: 100%;
+  }
+  section#divide_06 .sitemaparea {
+    display: none;
+  }
+  section#divide_06 .map_open {
+    display: none;
+  }
+  section#divide_06 .container {
+    padding: 0 15px 0 15px;
+  }
+  section#divide_06 .linkarea {
+    display: none;
+  }
+  section#divide_06 .content .arr_next {
+    display: none;
+  }
+  section#divide_06 .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#divide_06 .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#divide_06 .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#divide_06 .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#divide_06 .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#divide_06 #content {
+    padding: 0 0 40px 0;
+  }
+  section#divide_06 .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#divide_06 .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#divide_06 .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#divide_06 #csr dl {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  section#divide_06 #csr dd {
+    margin: 0 auto;
+  }
+  section#divide_07 {
+    background: none;
+  }
+  section#divide_07 img {
+    max-width: 100%;
+  }
+  section#divide_07 .sitemaparea {
+    display: none;
+  }
+  section#divide_07 .map_open {
+    display: none;
+  }
+  section#divide_07 .container {
+    padding: 0 15px 0 15px;
+  }
+  section#divide_07 .linkarea {
+    display: none;
+  }
+  section#divide_07 .content .arr_next {
+    display: none;
+  }
+  section#divide_07 .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#divide_07 .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#divide_07 .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#divide_07 .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#divide_07 .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#divide_07 #content {
+    padding: 0 0 40px 0;
+  }
+  section#divide_07 .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#divide_07 .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#divide_07 .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#divide_07 #csr dl {
+    width: 100%;
+    float: none;
+    padding-bottom: 40px;
+  }
+  section#divide_07 #csr dd {
+    margin: 0 auto;
+  }
+  section#divide_07 #csr dt {
+    margin-left: 18px;
+  }
+  section#email {
+    background: none;
+  }
+  section#email .sitemaparea {
+    display: none;
+  }
+  section#email .map_open {
+    display: none;
+  }
+  section#email .container {
+    padding: 0 15px 0 15px;
+  }
+  section#email .linkarea {
+    display: none;
+  }
+  section#email .content .arr_next {
+    display: none;
+  }
+  section#email .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#email .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#email .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#email .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#email .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#email #content {
+    padding: 0 0 40px 0;
+  }
+  section#email .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#email .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#email .sub_menu li:first-child {
+    margin-top: 10px;
+  }
+  section#search {
+    background: none;
+  }
+  section#search .sitemaparea {
+    display: none;
+  }
+  section#search .map_open {
+    display: none;
+  }
+  section#search .container {
+    padding: 0 15px 0 15px;
+  }
+  section#search .linkarea {
+    display: none;
+  }
+  section#search .content .arr_next {
+    display: none;
+  }
+  section#search .menu_m {
+    display: block;
+    width: 100%;
+    min-width: 280px;
+    height: 48px;
+    margin-top: 8px;
+    padding: 0;
+    background: url(../image/sk/bg_navigr_m2.png);
+    background-repeat: repeat-x;
+  }
+  section#search .menu_m .home {
+    width: 16%;
+    min-width: 48px;
+    height: 33px;
+    float: left;
+    padding: 12px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+    border-right: 1px solid #d6d6d6;
+  }
+  section#search .menu_m .home img {
+    width: 25px;
+    height: 21px;
+  }
+  section#search .menu_m .status {
+    float: left;
+    width: 78%;
+    text-align: left;
+    padding: 0;
+    color: #000;
+    border-right: 0;
+    min-width: 120px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+    background: none;
+  }
+  section#search .menu_m .status a {
+    display: block;
+    height: 31px;
+    padding: 16px 0 0 15px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background: url("../image/sk/icon_navi_m2.gif");
+    background-position: 98% 18px;
+    background-repeat: no-repeat;
+  }
+  section#search #content {
+    padding: 0 0 40px 0;
+  }
+  section#search .sub_menu {
+    display: none;
+    clear: both;
+    position: relative;
+    width: 100%;
+  }
+  section#search .sub_menu li {
+    padding-left: 20px;
+    line-height: 25px;
+  }
+  section#search .sub_menu li:first-child {
+    margin-top: 10px;
+  }
   section#main {
     background: none;
     margin: 0;
@@ -8969,7 +11359,7 @@ section#email .container .content .contentbox .emailbox p {
     background-repeat: no-repeat;
   }
   section#main .container .content .contents .sub_menu {
-    display: block;
+    display: none;
     clear: both;
     position: relative;
     width: 100%;
@@ -9316,50 +11706,5 @@ section#email .container .content .contentbox .emailbox p {
   }
   section#main .container .content .contents .skmedia .mediabox p {
     padding: 0 135px 0 14px;
-  }
-  footer {
-    position: relative;
-    min-width: 290px;
-    width: 100%;
-    height: 129px;
-    border-top: 1px #eaeaea solid;
-    background-color: #fff;
-    color: #595959;
-    letter-spacing: -1px;
-    line-height: 17px;
-  }
-  footer h1 {
-    position: absolute;
-    top: 25px;
-    left: 57px;
-  }
-  footer .footermenu {
-    display: none;
-  }
-  footer p {
-    display: none;
-  }
-  footer .copyright_m {
-    display: block;
-    position: absolute;
-    top: 27px;
-    left: 150px;
-    width: 50%;
-    margin-top: 5px;
-    padding-bottom: 20px;
-    color: #666;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: -1px;
-  }
-  footer .copyright_m span {
-    display: block;
-    color: #595959;
-    line-height: 16px;
-  }
-  footer .Accessibility {
-    position: absolute;
-    top: 25px;
-    left: 350px;
   }
 }
