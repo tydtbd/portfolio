@@ -229,37 +229,41 @@ section{
                         width: 717px;
                         }
                       }
-                      .stop{
-                        width: 30px;
-                        height: 30px;
-                        border: 0;
-                        position: absolute;
-                        bottom: 15px;
-                        right: 47px;
-                        background: url("../image/sk/btn_stop.gif");
-                        &:hover{ background: url("../image/sk/btn_stop_over.gif");}
-                      }
-                      .play{
-                        width: 30px;
-                        height: 30px;
-                        border: 0;
-                        position: absolute;
-                        bottom: 15px;
-                        right: 15px;
-                        background: url("../image/sk/btn_play.gif");
-                        &:hover{ background: url("../image/sk/btn_play_over.gif");}
-                      }
-                      .left{
-                        position: absolute;
-                        top: 170px;
-                        left: 25px;
-                        z-index: 30;
-                      }
-                      .right{
-                        position: absolute;
-                        top: 170px;
-                        left: 665px;
-                        z-index: 30;
+                      .btn-group{
+                        .stop{
+                          width: 30px;
+                          height: 30px;
+                          border: 0;
+                          position: absolute;
+                          bottom: 15px;
+                          z-index: 10;
+                          right: 47px;
+                          background: url("../image/sk/btn_stop.gif");
+                          &:hover{ background: url("../image/sk/btn_stop_over.gif");}
+                        }
+                        .play{
+                          width: 30px;
+                          height: 30px;
+                          border: 0;
+                          position: absolute;
+                          bottom: 15px;
+                          z-index: 10;
+                          right: 15px;
+                          background: url("../image/sk/btn_play.gif");
+                          &:hover{ background: url("../image/sk/btn_play_over.gif");}
+                        }
+                        .left{
+                          position: absolute;
+                          top: 170px;
+                          left: 25px;
+                          z-index: 30;
+                        }
+                        .right{
+                          position: absolute;
+                          top: 170px;
+                          left: 665px;
+                          z-index: 30;
+                        }
                       }
                     }
                     .slide_right{
@@ -325,17 +329,19 @@ section{
                       left: 0;
                       overflow: hidden;
                       border-right: 1px #eaeaea solid;
-                      .left{
-                        position: absolute;
-                        top: 170px;
-                        left: 25px;
-                        z-index: 10;
-                      }
-                      .right{
-                        position: absolute;
-                        top: 170px;
-                        left: 665px;
-                        z-index: 10;
+                      .btn-group{
+                        .left{
+                          position: absolute;
+                          top: 170px;
+                          left: 25px;
+                          z-index: 10;
+                        }
+                        .right{
+                          position: absolute;
+                          top: 170px;
+                          left: 665px;
+                          z-index: 10;
+                        }
                       }
                       ul{
                         width: 20000px;

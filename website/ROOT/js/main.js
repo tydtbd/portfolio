@@ -1,5 +1,42 @@
 $(function() {
 
+    // var idx = 0;
+    // //main-slide
+    // function motion(start, end, i) {
+    //     $('.company_01 ul li').eq(i).addClass('on').css({
+    //         left: start
+    //     }).stop().animate({
+    //         left: end
+    //     })
+    //
+    //     if (idx < 0) {
+    //
+    //         idx = $('.company_01 ul li').length - 1;
+    //         motion('100%', 0, idx)
+    //         idx--
+    //         motion(0, '100%', idx)
+    //     } else if (idx = $('.company_01 ul li').length)
+    //         idx = 0
+    //     motion('-100%', 0, idx)
+    //     idx++
+    //     motion(0, '-100%', idx)
+    // }
+    //
+    // $('.slide-btn .right').click(function() {
+    //     console.log('right');
+    //     motion(0, '-100%', idx);
+    //     idx++
+    //     motion('100%', 0, idx);
+    // })
+    //
+    // $('.slide-btn .left').click(function() {
+    //     console.log('left');
+    //     motion(0, '100%', idx);
+    //     idx--
+    //     motion('-100%', 0, idx);
+    // })
+
+
     // menu 마우스오버
     $('.menu img').hover(function() {
 

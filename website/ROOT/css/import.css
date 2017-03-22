@@ -269,37 +269,39 @@ section .container .content .contents .company_01 .slide ul li {
   float: left;
   width: 717px;
 }
-section .container .content .contents .company_01 .slide .stop {
+section .container .content .contents .company_01 .slide .btn-group .stop {
   width: 30px;
   height: 30px;
   border: 0;
   position: absolute;
   bottom: 15px;
+  z-index: 10;
   right: 47px;
   background: url("../image/sk/btn_stop.gif");
 }
-section .container .content .contents .company_01 .slide .stop:hover {
+section .container .content .contents .company_01 .slide .btn-group .stop:hover {
   background: url("../image/sk/btn_stop_over.gif");
 }
-section .container .content .contents .company_01 .slide .play {
+section .container .content .contents .company_01 .slide .btn-group .play {
   width: 30px;
   height: 30px;
   border: 0;
   position: absolute;
   bottom: 15px;
+  z-index: 10;
   right: 15px;
   background: url("../image/sk/btn_play.gif");
 }
-section .container .content .contents .company_01 .slide .play:hover {
+section .container .content .contents .company_01 .slide .btn-group .play:hover {
   background: url("../image/sk/btn_play_over.gif");
 }
-section .container .content .contents .company_01 .slide .left {
+section .container .content .contents .company_01 .slide .btn-group .left {
   position: absolute;
   top: 170px;
   left: 25px;
   z-index: 30;
 }
-section .container .content .contents .company_01 .slide .right {
+section .container .content .contents .company_01 .slide .btn-group .right {
   position: absolute;
   top: 170px;
   left: 665px;
@@ -371,13 +373,13 @@ section .container .content .contents .company_02 .slide {
   overflow: hidden;
   border-right: 1px #eaeaea solid;
 }
-section .container .content .contents .company_02 .slide .left {
+section .container .content .contents .company_02 .slide .btn-group .left {
   position: absolute;
   top: 170px;
   left: 25px;
   z-index: 10;
 }
-section .container .content .contents .company_02 .slide .right {
+section .container .content .contents .company_02 .slide .btn-group .right {
   position: absolute;
   top: 170px;
   left: 665px;
