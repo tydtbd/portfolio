@@ -249,7 +249,6 @@ section .container .content .contents .company_01 {
   background-repeat: repeat-x;
   width: 954px;
   height: 362px;
-  display: none;
 }
 section .container .content .contents .company_01 .slide {
   width: 717px;
@@ -363,6 +362,7 @@ section .container .content .contents .company_02 {
   background-repeat: repeat-x;
   width: 954px;
   height: 362px;
+  display: none;
 }
 section .container .content .contents .company_02 .slide {
   width: 717px;
@@ -5071,6 +5071,9 @@ section#tvad .container .content .contentbox .paging span a:hover {
 section#tvad .container .content .contentbox .paging span a.selected {
   color: #fff;
   background-color: #ea002c;
+}
+section#tvad .container .content .contentbox .paging input {
+  vertical-align: middle;
 }
 section#recruit {
   position: relative;
